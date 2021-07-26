@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="[ http://www.deutschestextarchiv.de/basisformat.rng ]http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="[ http://relaxng.org/ns/structure/1.0 ]http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="[ http://www.deutschestextarchiv.de/basisformat.sch ]http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="[ http://purl.oclc.org/dsdl/schematron ]http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="[ http://www.tei-c.org/ns/1.0 ]http://www.tei-c.org/ns/1.0">
+<?xml-model href="../schema/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="file:../schema/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="main">Vieweg Brief</title>
+                <title type="main">Vieweg Briefe</title>
                 <title type="sub">Vieweg 8</title>
                 <respStmt>
                     <persName>
@@ -18,10 +18,10 @@
                     </resp>
                 </respStmt>
                 <respStmt>
-                    <orgName ref="[ https://www.bbaw.de ]https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+                    <orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
                     <resp>
                         <note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
-                        <ref target="[ https://www.bbaw.de ]https://www.bbaw.de"/>
+                        <ref target="https://www.bbaw.de"/>
                     </resp>
                 </respStmt>
             </titleStmt>
@@ -46,7 +46,7 @@
                 <pubPlace>Berlin</pubPlace>
                 <date type="publication">2021-07-05T15:48:01Z</date>
                 <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
-                    <licence target="[ http://creativecommons.org/publicdomain/zero/1.0/ ]http://creativecommons.org/publicdomain/zero/1.0/">
+                    <licence target="http://creativecommons.org/publicdomain/zero/1.0/">
                         <p>Dieses Werk ist gemeinfrei.</p>
                     </licence>
                 </availability>
@@ -62,13 +62,15 @@
                         <edition n="1"/>
                     </editionStmt>
                     <publicationStmt>
-                        <publisher><name>Friedrich Vieweg und Sohn </name></publisher>
+                        <publisher><name>Friedrich Vieweg und Sohn</name></publisher>
                         <date type="publication">1940</date>
                     </publicationStmt>
                 </biblFull>
                 <msDesc xml:id="imagesource-1" corresp="#availability-imagesource-1">
                     <msIdentifier>
                         <repository>Vieweg Archiv</repository>
+                        <idno>Vieweg 100</idno>
+                        <idno>UABS V 1 H111</idno>
                     </msIdentifier>
                     <physDesc>
                         <typeDesc>
@@ -77,10 +79,7 @@
                     </physDesc>
                 </msDesc>
             </sourceDesc>
-                <msDesc>
-                    <msIdentifier><idno>Vieweg 100</idno></msIdentifier>
-                </msDesc>UABS V 1 H111
-        </fileDesc>
+                </fileDesc>
         <encodingDesc>
             <editorialDecl>
                 <p>
@@ -111,16 +110,16 @@
                 <language ident="gmh">Mittelhochdeutsch</language>
             </langUsage>
             <textClass>
-                <classCode scheme="[ https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main ]https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Wissenschaft</classCode>
+                <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Wissenschaft</classCode>
             </textClass>
         </profileDesc>
     </teiHeader>
-    <text>
-        <pb facs="#f0001" />[ https://transkribus.eu/lite/collection/98169/doc/663663/detail/1 ]https://transkribus.eu/lite/collection/98169/doc/663663/detail/1
+    <text>        
         <body>
-            <div>
+            <div type="letter">
+                <pb facs="#f0001" corresp="https://transkribus.eu/lite/collection/98169/doc/663663/detail/1" n="1"/>
                 <p><lb/>Herrn
-                    <lb/>Dr. <persName>Karl Helbig</persName>
+                    <lb/>Dr. <persName ref="http://d-nb.info/gnd/128547553">Karl Helbig</persName>
                 </p>
                 <p>
                     <lb/>Blankenese b. Hamburg
@@ -128,8 +127,10 @@
                     <lb/><date>10. Mai 1940.</date>
                     <lb/>Z/Kö.344.
                 </p>
-                <p>
-                    <lb/><opener>Sehr geehrter Herr Dr. Helbig!</opener>
+                <div>
+                    <opener>Sehr geehrter Herr <persName ref="http://d-nb.info/gnd/128547553">Dr. Helbig</persName>!</opener>
+                    
+                    <p>
                     <lb/>Nachdem wir Ihnen am <date>24.4.</date> eine vorläufige Eingangsbe-
                     <lb/>stätigung Ihres Manuskriptes zukommen ließen, können wir
                     <lb/>Ihnen heute die Mitteilung machen, daß Ihr Buch unserem
@@ -163,13 +164,14 @@
                     <lb/>lung doch mehr Zeit als sonst, und wir möchten so früh als
                     <lb/>möglich die Ausgabe des Buches vornehmen. Das Manuskript
                     <lb/>erhalten Sie mit gleicher Post unter Wertversicherung zurück.
-                </p>
-                <p><closer>
+                </p>                    
+                <closer>
                     <lb/><salute>Mit freundlichen Grüßen
                         <lb/>Heil Hitler!</salute>
                     <lb/><signed>Friedr. Vieweg &amp; Sohn</signed>
                 </closer>
-                </p>
+                
+                </div>
             </div>
         </body>
     </text>
