@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Vieweg Archiv</title>
+        <respStmt>
+          <persName>
+            <surname>Krüger</surname>
+            <forename>Malin</forename>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility">Bearbeitung der digitalen Edition.</note>
+            <date type="importDTA">2021-07-05T15:48:20Z</date>
+          </resp>
+        </respStmt>
+        <respStmt>
+          <orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+          <resp>
+            <note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+            <ref target="https://www.bbaw.de"/>
+          </resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+      <extent>
+        <measure type="images"/>
+        <measure type="tokens"/>
+        <measure type="types"/>
+        <measure type="characters"/>
+      </extent>
+      <publicationStmt>
+        <publisher xml:id="DTACorpusPublisher">
+          <email>dta@bbaw.de</email>
+          <orgName role="project">Deutsches Textarchiv</orgName>
+          <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+          <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+          <address>
+            <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+            <country>Germany</country>
+          </address>
+        </publisher>
+        <pubPlace>Berlin</pubPlace>
+        <date type="publication">2021-07-05T15:48:20Z</date>
+      </publicationStmt>
+      <sourceDesc>
+       <bibl type="M"/>
+        <biblFull>
+          <titleStmt>
+          <title level="m" type="main">Vieweg Archiv</title>
+          </titleStmt>
+          <editionStmt>
+            <edition n="1"/>
+          </editionStmt>
+          <publicationStmt>
+            <publisher><name>Vieweg &amp; Sohn</name></publisher>
+              <pubPlace>Braunschweig</pubPlace>
+            <date type="publication">1940</date>
+          </publicationStmt>
+        </biblFull>
+      </sourceDesc>
+      <msDesc>
+      <msIdentifier><idno>UABS V1 H111 (12)</idno></msIdentifier>
+      </msDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>
+            Bogensignaturen: keine Angabe;
+            Druckfehler: keine Angabe;
+            fremdsprachliches Material: keine Angabe;
+            Geminations-/Abkürzungsstriche: keine Angabe;
+            Hervorhebungen (Antiqua, Sperrschrift, Kursive etc.): keine Angabe;
+            I/J in Fraktur: keine Angabe;
+            i/j in Fraktur: keine Angabe;
+            Kolumnentitel: keine Angabe;
+            Kustoden: keine Angabe;
+            langes s (ſ): keine Angabe;
+            Normalisierungen: keine Angabe;
+            rundes r (&amp;#xa75b;): keine Angabe;
+            Seitenumbrüche markiert: keine Angabe;
+            Silbentrennung: keine Angabe;
+            u/v bzw. U/V: keine Angabe;
+            Vokale mit übergest. e: keine Angabe;
+            Vollständigkeit: keine Angabe;
+            Zeichensetzung: keine Angabe;
+            Zeilenumbrüche markiert: keine Angabe;
+        </p>
+        <p>Zeilengetreue Transkiption mit Transkribus</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="deu">(Früh-)Neuhochdeutsch</language>
+      </langUsage>
+      <textClass>
+        <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+    <text>
+        <pb facs="#f0001" />
+        <body>
+            <div type="letter">
+               <pb facs="#f0001" corresp="https://transkribus.eu/lite/collection/98169/doc/669144/detail/1?view=image"/>
+               <opener>
+                <p>
+                <lb />Herrn <persName ref="http://d-nb.info/gnd/173675700/about/marcxml">Georg Schwarz</persName></p>
+                <p>
+                <lb />Dr. <persName ref="https://d-nb.info/gnd/128547553">Helbig</persName></p>
+                <p>
+                <lb />Z/Kö.341 
+                <lb />
+                <date when="25-05-1940">25. Mai 1940.</date></p></opener>
+                <p>
+                <lb />Dr. <persName ref="https://d-nb.info/gnd/128547553">H.</persName> schreibt uns heute, daß ihm eine Kürzung seines 
+                <lb />Manuskriptes viel Kopfzerbrechen bereiten würde und daß 
+                <lb />er es nicht für möglich hält, den Umfang auf 20 Bogen 
+                <lb />herunter zu drücken.</p>
+                <p>
+                <lb />Wir haben ihm heute laut beigefügtem Durchschlag geschrie- 
+                <lb />ben. Wenn er sich an Sie wendet, versuchen auch Sie bitte, 
+                <lb />etwas zu erreichen. Natürlich darf dem Werk durch eine 
+                <lb />Kürzung nicht geschadet werden. Ein Autor ist aber immer 
+                <lb />von seinem Buche überzeugt und sieht vielleicht die Brei- 
+                <lb />ten nicht, die hier und da auftreten.</p>
+                <closer>
+                    <lb />
+                    <signed>Friedr. Vieweg &amp; Sohn</signed>
+                </closer>
+                <postscript>
+                <lb />Anlage.</postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

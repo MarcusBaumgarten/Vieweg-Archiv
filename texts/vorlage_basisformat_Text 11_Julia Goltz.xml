@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Vieweg Archiev</title>
+        <title type="sub">Viewegbrief 11</title>
+        <respStmt>
+          <persName>
+            <surname>Goltz</surname>
+            <forename>Julia</forename>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility">Bearbeitung der digitalen Edition.</note>
+            <date type="importDTA">2021-07-05T15:39:46Z</date>
+          </resp>
+        </respStmt>
+        <respStmt>
+          <orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+          <resp>
+            <note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+            <ref target="https://www.bbaw.de"/>
+          </resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+      <extent>
+        <measure type="images"/>
+        <measure type="tokens"/>
+        <measure type="types"/>
+        <measure type="characters"/>
+      </extent>
+      <publicationStmt>
+        <publisher xml:id="DTACorpusPublisher">
+          <email>dta@bbaw.de</email>
+          <orgName role="project">Deutsches Textarchiv</orgName>
+          <address>
+            <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+            <country>Germany</country>
+          </address>
+        </publisher>
+        <pubPlace>Berlin</pubPlace>
+        <date type="publication">2021-07-05T15:39:46Z</date>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier><idno>UABS V1 H111 (11)</idno></msIdentifier>
+        </msDesc>
+        <bibl type="M"/>
+        <biblFull>
+          <titleStmt>
+          <title level="m" type="main">Vieweg Archiev</title>
+          <title level="m" type="sub">Viewegbrief 11</title>
+          </titleStmt>
+          <editionStmt>
+            <edition n="1"/>
+          </editionStmt>
+          <publicationStmt>
+            <publisher><name>Vieweg &amp; Sohn</name></publisher>
+            <date type="creation">1940</date>
+          </publicationStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>
+            Bogensignaturen: keine Angabe;
+            Druckfehler: keine Angabe;
+            fremdsprachliches Material: keine Angabe;
+            Geminations-/Abkürzungsstriche: keine Angabe;
+            Hervorhebungen (Antiqua, Sperrschrift, Kursive etc.): keine Angabe;
+            I/J in Fraktur: keine Angabe;
+            i/j in Fraktur: keine Angabe;
+            Kolumnentitel: keine Angabe;
+            Kustoden: keine Angabe;
+            langes s (ſ): keine Angabe;
+            Normalisierungen: keine Angabe;
+            rundes r (&amp;#xa75b;): keine Angabe;
+            Seitenumbrüche markiert: keine Angabe;
+            Silbentrennung: keine Angabe;
+            u/v bzw. U/V: keine Angabe;
+            Vokale mit übergest. e: keine Angabe;
+            Vollständigkeit: keine Angabe;
+            Zeichensetzung: keine Angabe;
+            Zeilenumbrüche markiert: keine Angabe;
+        </p>
+        <p>Zeilengetreue Transkription mit Transkribus</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="deu">(Früh-)Neuhochdeutsch</language>
+      </langUsage>
+      <textClass>
+        <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+    <text>
+        <pb facs="#f0001" />
+        <body>
+            <div type="letter">
+              <pb facs="#f0001" corresp="https://transkribus.eu/lite/collection/98169/doc/675321/detail/1"/>
+<opener>
+<p>
+<lb/>Herrn
+<lb/>Dr.<persName ref="http://d-nb.info/gnd/128547553">K. Helbig</persName>
+<lb/><placeName ref="https://www.geonames.org/2948066/blankenese.html">Blankenese b. Hamburg</placeName>
+<lb/>Charlottenstraße 11</p>
+<p>
+<date when="24-05-1940">24. Mai 1940.</date>
+<lb/>Z/Kö.</p>
+Sehr geehrter Herr Dr.<persName ref="http://d-nb.info/gnd/128547553">Helbig</persName>!</opener>
+<p>
+<lb/>Wir danken Ihnen für Ihre ausführlichen Zeilen vom 23.5.</p>
+<p>
+<lb/>Der von unserer Druckerei errechnete Umfang von etwa 400
+<lb/>Seiten stimmt. Wenn sich eine Differenz ergibt, dann kann
+<lb/>es sich nur um ein paar Seiten minder oder mehr handeln.</p>
+<p>
+<lb/>Die bisherigen Bände des Verlages Wenzel haben einen Um-
+<lb/>fang von etwa 200 Seiten und kosten zwischen 5 und 6 Mark.
+<lb/>Je nach der Anzahl der Bilder, die Ihrem Buche beigegeben
+<lb/>werden (Abbildungen sind unbedingt wichtig), würde sich
+<lb/>also ein Preis von voraussichtlich <choice><abbr>RM</abbr><expan>Reichsmark</expan></choice> 10.-- bis 11.-- er-
+<lb/>geben.<note type="editorial">RM bezeichnet das damalige Zahlungsmittel, die Reichsmark</note></p>
+<p>
+<lb/>Natürlich wird heute für ein Buch gern etwas mehr als frü-
+<lb/>her ausgegeben und der Preis an sich ist auch nicht so
+<lb/>ausschlaggebend. Viele Bücherleser - und besonders die so-
+<lb/>genannte breite Masse - haben aber Angst vor dem "Wälzer“.</p>
+<p>
+<lb/>Wir möchten Sie nun aber nicht veranlassen, Ihr Manuskript
+<lb/>um jeden Preis zu kürzen. Auch das schmückende Beiwerk muß
+<lb/>bleiben, denn das ist in den meisten Fällen die Würze der
+<lb/>Reisebeschreibung. Es kann sich also nur darum handeln,
+<lb/>daß Sie noch einmal überlegen, ob hier und da nicht etwas
+<lb/>zusammengedrängt werden kann. Sind es keine 20%, so lassen
+<lb/>sich vielleicht 10% erreichen. Auch damit ist uns schon ge-
+<lb/>dient. Wenn wir auch nicht von vornherein auf Massenabsatz
+<lb/>spekulieren, so kann es uns und Ihnen nur angenehm sein,
+<lb/>wenn das Buch einen recht ausgedehnten Leser- und Käufer-
+<lb/>kreis finden wird.</p>
+<p>
+<lb/>Prüfen Sie also bitte noch einmal, was möglich ist. Viel-
+<lb/>leicht ist es auch wertvoll für Sie, wenn Sie sich noch
+<lb/>einmal mit Herrn <persName>Schwarz</persName> deswegen in Verbindung setzen;
+<lb/>seine Adresse lautet: <placeName ref="https://www.geonames.org/2805059/zehlendorf.html">Berlin-Zehlendorf</placeName>, Waldhüterpfad 6.</p>
+<p>
+<closer>
+<lb/><salute>Mit besten Empfehlungen
+<lb/>Heil Hitler!</salute>
+<lb/>
+<lb/><signed>Friedr. Vieweg &amp; Sohn</signed>
+</closer></p>
+            </div>
+        </body>
+    </text>
+</TEI>

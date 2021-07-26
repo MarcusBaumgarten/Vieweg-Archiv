@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Vieweg Archiv </title>
+        <author>
+          <persName ref="http://d-nb.info/gnd/128547553">
+            <surname>Helbig </surname>
+            <forename>Karl</forename>
+          </persName>
+        </author>
+        <respStmt>
+          <persName>
+            <surname>Schröder</surname>
+            <forename>Lena</forename>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility">Bearbeitung der digitalen Edition.</note>
+            <date type="importDTA">2021-07-05T15:48:50Z</date>
+          </resp>
+        </respStmt>
+        <respStmt>
+          <orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+          <resp>
+            <note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+            <ref target="https://www.bbaw.de"/>
+          </resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+      <extent>
+        <measure type="images"/>
+        <measure type="tokens"/>
+        <measure type="types"/>
+        <measure type="characters"/>
+      </extent>
+      <publicationStmt>
+        <publisher xml:id="DTACorpusPublisher">
+          <email>dta@bbaw.de</email>
+          <orgName role="project">Deutsches Textarchiv</orgName>
+          <orgName role="hostingInstitution" xml:lang="en"></orgName>
+          <orgName role="hostingInstitution" xml:lang="de"></orgName>
+          <address>
+            <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+            <country>Germany</country>
+          </address>
+        </publisher>
+        <pubPlace>Berlin</pubPlace>
+        <date type="publication">2021-07-05T15:48:50Z</date>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/publicdomain/zero/1.0/">
+            <p>Dieses Werk ist gemeinfrei.</p>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier><idno> UABS V 1 H111 (13)</idno></msIdentifier>
+        </msDesc>
+        <bibl type="M"/>
+        <biblFull>
+          <titleStmt>
+          <title level="m" type="main">Vieweg Archiv</title>
+            <author>
+              <persName ref="http://d-nb.info/gnd/128547553">
+                <surname>Helbig </surname>
+                <forename>Karl</forename>
+              </persName>
+            </author>
+          </titleStmt>
+          <editionStmt>
+            <edition n="1"/>
+          </editionStmt>
+          <publicationStmt>
+            <publisher/>
+          </publicationStmt>
+        </biblFull>
+        <msDesc xml:id="imagesource-1" corresp="#availability-imagesource-1">
+          <msIdentifier>
+            <repository>Technische Universität Braunschweig</repository>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>
+            Bogensignaturen: keine Angabe;
+            Druckfehler: keine Angabe;
+            fremdsprachliches Material: keine Angabe;
+            Geminations-/Abkürzungsstriche: keine Angabe;
+            Hervorhebungen (Antiqua, Sperrschrift, Kursive etc.): keine Angabe;
+            I/J in Fraktur: keine Angabe;
+            i/j in Fraktur: keine Angabe;
+            Kolumnentitel: keine Angabe;
+            Kustoden: keine Angabe;
+            langes s (ſ): keine Angabe;
+            Normalisierungen: keine Angabe;
+            rundes r (&amp;#xa75b;): keine Angabe;
+            Seitenumbrüche markiert: keine Angabe;
+            Silbentrennung: keine Angabe;
+            u/v bzw. U/V: keine Angabe;
+            Vokale mit übergest. e: keine Angabe;
+            Vollständigkeit: keine Angabe;
+            Zeichensetzung: keine Angabe;
+            Zeilenumbrüche markiert: keine Angabe;
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="deu">(Früh-)Neuhochdeutsch</language>
+      </langUsage>
+      <textClass>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <pb facs="#f0001" corresp="https://transkribus.eu/lite/collection/98169/doc/669153/detail/1?view=image"/>
+    <body>
+      <div>
+<p>
+<lb/>Dr. <persName ref="http://d-nb.info/gnd/128547553">K. Helbig</persName>, <placeName ref="https://www.geonames.org/2948066/blankenese.html"> Blankenese </placeName>
+</p>
+<p>
+<lb/>b.<placeName ref="https://www.geonames.org/2911298/hamburg.html"> Hamburg</placeName>, Charlottenstr. 11
+<lb/><date when="4-6-40">4.6.1940</date>
+<lb/>Postscheck <placeName ref="https://www.geonames.org/2911298/hamburg.html">Hamburg</placeName> 48072
+<lb/>An den Verlag <orgName ref="	http://d-nb.info/gnd/2010996-9">Friedrich Vieweg &amp; Sohn</orgName>
+<lb/>Ihr Zeichen: Z/Kö. 24.5.40
+<lb/><placeName ref="https://www.geonames.org/2945024/braunschweig.html">Braunschweig</placeName>
+</p>
+<p><opener>Sehr geehrte Herren!</opener>
+<lb/>Die erbetene Kürzung meines Borneo-Manuskriptes hat mich doch
+<lb/>mehr Kopfschmerzen und Zeit gekostet, als vielleicht angenommen wird. So bitte
+<lb/>ich die erst heute erfolgende Rücksendung zu entschuldigen und zu verstehen.
+<lb/>Noch dazu ist nicht allzu viel herausgekommen, denn je öfter ich das Geschriebene
+<lb/>durchlas, umso mehr wollte mir scheinen, dass eines ins andere griffe und kaum et-
+<lb/>was fehlen dürfe. Aber das wird die ewige Ansicht der Verfasser sein,mit der Ih-
+<lb/>nen nicht genügend gedient ist. So mache ich Ihnen den Vorschlag,wenn das von
+<lb/>mir Gekürzte noch nicht genügen sollte (es sind gegen 300 Zeilen, was etwa 10-11
+<lb/>Buchdruckseiten entspricht), so nimmt vielleicht der im Verlag mit der Durchsicht
+<lb/>beauftragte Herr bzw. der Lektor, der die Urschrift ja wohl auch noch einmal in
+<lb/>die Hände bekommt (?) einen Rotstift zur Hand und streicht von sich aus das an,
+<lb/>was seiner Ansicht nach weg köønnte. Sehr sympathisch ist mir diese Methode al-
+<lb/>lerdings nicht, und ich würde zumindest bitten, im Eingangs- und Schlusskapitel
+<lb/>nichts zu streichen; aber ich komme zu keinem anderen Ergebnis, wenn wirklich
+<lb/>noch mehr heraus muss. Vielleicht genügt es ja aber auch nun so, wie es ist, zumal
+<lb/>ich auf Vorschlag des Herrn Schwarz die Erklärungen der Fremdbegriffe usw. noch
+<lb/>als Anhang gesondert herausgenommen habe und dieser evtl. in petit gesetzt wer-
+<lb/>den kann. Vielleicht auch lässt sich im Ganzen durch einen etwas kleineren als
+<lb/>den üblichen Druck wenigstens der'Wälzer' nach äusserem Umfang vermeiden, und
+<lb/>vielleicht ist X doch auch ein Preis von 9.50 oder 9.80 oder ähnlich heraus-
+<lb/>zuwirtschaften, um wenigstens unter <choice><abrr>RM</abrr><expan>Reichsmark</expan></choice>. 10.- zu bleiben. (Als Laie stellt man es
+<lb/>sich überhaupt so vor, dass doppelter Umfang eines Buches nicht gleichbedeutend
+<lb/>mit doppelgem Preis ist. Aber ich musste mich durch Ihre Ausführungen eines an-
+<lb/>deren belehren lassen.)
+<p></p>
+<lb/>Die Bildauswahl geht heute an <persName>Herrn Schwarz</persName> ab. Wenn sich nach
+<lb/>erster Sichtung eine persönliche Rücksprache mit mir bzw. gemeinsame Durchsicht
+<lb/>als notwendig erweisen sollte, so bin ich zu einer Fahrt nach <placeName ref="https://www.geonames.org/2950159/berlin.html">Berlin</placeName> oder auch
+<lb/><placeName ref="https://www.geonames.org/2945024/braunschweig.html">Braunschweig</placeName> gern bereit. - Betreffs der Karte mit Routeneintragung könnte ich
+<lb/>entweder eine grosse, vom Topografischen Dienst in Samarinda eigens für mich ge-
+<lb/>zeichnete sehr übersichtliche und saubere Originalkarte (etwa 2 zu 1 Meter) zur
+<lb/>Verfügung stellen; oder aber Sie bedienen sich vielleicht einer der Reproduktio-
+<lb/>nen, die inzwischen von dieser Karte für einige Zeitschriftenveröffentlichungen
+<lb/>bereits angefertigt wurden. Die Ausleihung des Klischees dürfte ja auch einige
+<lb/>Kosten ersparen. Ein grosseres Klischee ist in der Drukkerij en Uitgeverij de Bus-
+<lb/>sy, <placeName ref="https://www.geonames.org/2759794/amsterdam.html">Amsterdam</placeName>, Rokin,ein <choice><sic>kleinerss</sic><corr resp="schröder">kleineres</corr></choice> bei <orgName ref="http://d-nb.info/gnd/2121514-5">Julius Springer</orgName>, <placeName ref="https://www.geonames.org/2950159/berlin.html">Berlin</placeName>, angefertigt.
+<lb/><closer><salute>Weiterer Nachricht entgegensehend grüsse ich bestens und
+<lb/>mit Heil Hitler:</salute>
+<lb/><signed><persName ref="http://d-nb.info/gnd/128547553" >Karl Helbig</persName></signed></closer>
+</p>
+      </div>
+    </body>
+  </text>
+</TEI>

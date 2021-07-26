@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Vieweg Archiv</title>
+        <title type="sub">Viewegbrief 42</title>
+        <author>
+          <persName ref="http://d-nb.info/gnd/128547553">
+            <surname>Helbig</surname>
+            <forename>Karl</forename>
+          </persName>
+        </author>
+        <respStmt>
+          <persName>
+            <surname>Schiller</surname>
+            <forename>Annika</forename>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility">Bearbeitung der digitalen Edition.</note>
+            <date type="importDTA">2021-07-05T15:46:32Z</date>
+          </resp>
+        </respStmt>
+        <respStmt>
+          <orgName></orgName>
+          <resp>
+            <note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+            <ref target="https://www.bbaw.de"/>
+          </resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+      <extent>
+        <measure type="images"/>
+        <measure type="tokens"/>
+        <measure type="types"/>
+        <measure type="characters"/>
+      </extent>
+      <publicationStmt>
+        <publisher xml:id="DTACorpusPublisher">
+          <email>dta@bbaw.de</email>
+          <orgName role="project">Deutsches Textarchiv</orgName>
+          <orgName role="hostingInstitution" xml:lang="en"></orgName>
+          <orgName role="hostingInstitution" xml:lang="de"></orgName>
+          <address>
+            <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+            <country>Germany</country>
+          </address>
+        </publisher>
+        <pubPlace>Berlin</pubPlace>
+        <date type="publication">2021-07-05T15:46:32Z</date>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc><msldentifier><idno>UABS V1 H111 (42)</idno></msldentifier></msDesc>
+        <bibl type="M"/>
+        <biblFull>
+          <titleStmt>
+          <title level="m" type="main">Vieweg Archiv</title>
+          <title level="m" type="sub">Viewegbrief 42</title>
+            <author>
+              <persName ref="http://d-nb.info/gnd/128547553">
+                <surname>Helbig</surname>
+                <forename>Karl</forename>
+              </persName>
+            </author>
+          </titleStmt>
+          <editionStmt>
+            <edition n="1"/>
+          </editionStmt>
+          <publicationStmt>
+            <publisher/>
+            <date type="creation">1940</date>
+          </publicationStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>
+            Bogensignaturen: keine Angabe;
+            Druckfehler: keine Angabe;
+            fremdsprachliches Material: keine Angabe;
+            Geminations-/Abkürzungsstriche: keine Angabe;
+            Hervorhebungen (Antiqua, Sperrschrift, Kursive etc.): keine Angabe;
+            i/j in Fraktur: keine Angabe;
+            I/J in Fraktur: keine Angabe;
+            Kolumnentitel: keine Angabe;
+            Kustoden: keine Angabe;
+            langes s (ſ): keine Angabe;
+            Normalisierungen: keine Angabe;
+            rundes r (&amp;#xa75b;): keine Angabe;
+            Seitenumbrüche markiert: keine Angabe;
+            Silbentrennung: keine Angabe;
+            u/v bzw. U/V: keine Angabe;
+            Vokale mit übergest. e: keine Angabe;
+            Vollständigkeit: keine Angabe;
+            Zeichensetzung: keine Angabe;
+            Zeilenumbrüche markiert: keine Angabe;
+        </p>
+        <p>Zeilengetreue Transkription mit Transkribus.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="deu">(Früh-)Neuhochdeutsch</language>
+      </langUsage>
+      <textClass>
+        <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <pb facs="#f0001" corresp="https://transkribus.eu/lite/collection/98169/doc/669150/detail/1?view=image"/>
+    <body>
+      <div>
+<p>Dr. <personName ref="http://d-nb.info/gnd/128547553"> K. Helbig</personName>, <placeName ref="https://www.geonames.org/2948066/blankenese.html">Blankenese
+<lb/>b. Hamburg</placeName>, Charlottenstr. 11
+</p>
+<lb/><date when="17-10-1940">17.10.40</date>
+<p>
+<lb/>Ihr Zeichen: Z/S
+<lb/>16.10.40
+<lb/>An den
+<lb/><orgName ref="http://d-nb.info/gnd/2010996-9">Friedrich Vieweg Verlag</orgName>
+<lb/>Braunschweig
+</p>
+<opener>
+<lb/>Sehr geehrte Herren,
+</opener>
+<p>
+<lb/>für Ihr gestriges Schreiben meinen Dank. Ich freue mich sehr, dass mein
+<lb/>Borneo-Buch nun fertig vorliegt und ich habe Ihnen nochmals für alle Ihnen da-
+<lb/>mit entstandenen Mühen und Ihren liebenswürdigen Einsatz zu danken. Verbunden
+<lb/>bin ich Ihnen auch, dass Sie von dort aus den Versand einiger Exemplare für mich
+<lb/>vornehmen wollen, vielleicht ist es möglich, den betr. Sendungen einen Vermerk zu-
+<lb/>zufügen, dass sie in meinem Auftrage vorgenommen werden? Ausser den bereits auf-
+<lb/>gegebenen vier Adressen, an die Sie freundlicherweise zusätzlich zu den mir zu-
+<lb/>stehenden Freiexemplaren<note type="editorial">Freiexemplare als Ausfertigungen eines Druckes, welche einer bestimmten Personen wie z.B. dem Autor kostenlos ausgehändigt werden. </note> noch jeweils ein Buch zu schicken sich bereit erklärten
+<lb/>gebe ich nunmehr folgende Adressen für Freiexemplare an:
+</p>
+<p>
+<lb/>Fräulein <personName><choice><sic>Elisabteh</sic><corr resp="Schiller">Elisabeth</corr></choice>Helbig<note type="editorial">Schwester von Karl Helbig</note></personName>, <placeName ref="https://www.geonames.org/2904789/hildesheim.html">Hildesheim-M.</placeName> Zierenbergstr. 120: 5 Exemplare
+<lb/>weiter je 1 Exemplar:
+<lb/>Herrn <persName ref="http://d-nb.info/gnd/1073363481"> David Gundert</persName>, <placeName ref="https://www.geonames.org/2825297/stuttgart.html">Stuttgart</placeName>, Hohestr. 6
+<lb/>Herrn Professor Dr. <persName ref="http://d-nb.info/gnd/1038207126"> Mau</persName>, Leiter der Orthopädischen Klinik, <placeName ref="https://www.geonames.org/2929853/eppendorf.html">Hamburg</placeName>,Eppendorfer-
+<lb/>Krankenhaus.
+<lb/>Herrn <persName><choice><sic>P.A.O.</sic><corr resp="Karl Helbig">P.A.<note type= "editorial">Buchstabe wurde gestrichen.</note>O.</corr></choice>Lauffer</persName>, <placeName ref="https://www.geonames.org/2704086/huvudsta.html">Huvudsta/Stockholm</placeName>, Storgatan 3, Schweden
+<lb/>Herrn <persName>Jakob Freitag</persName>, <placeName ref="https://www.geonames.org/8505014/haslen.html"> Haslen</placeName>, Kanton Glarus, Schweiz.
+<lb/>Herrn <persName>F. Remppis,'s</persName> <placeName ref="https://www.geonames.org/2747599/scheveningen.html"> Gravenhage/Scheveningen</placeName>, Duinweg 25, Holland.
+<lb/>Herrn<persName> Karl Epple</persName>, <placeName ref="https://www.geonames.org/2927268/fellbach.html"> Fellbach bei Stuttgart</placeName>, Schreberweg 9
+<lb/>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX<note type="editorial">Aufgeführter Name wurde gestrichen.</note>
+<lb/>Herrn <persName>Hans Schüler/Ackermann</persName>, <placeName ref="https://www.geonames.org/2807748/winterhude.html"> Hamburg 39</placeName>, Epheuweg 9 II.
+<lb/>Familie <persName>Fritz Beltz</persName>, <placeName ref="https://www.geonames.org/2923850/fuhlsbuettel.html">Hamburg-Fuhlsbüttel</placeName>, Heschredder 41
+<lb/>"<persName>Emma Bernhardt</persName>, Kaufmann, <placeName ref="https://www.geonames.org/2864090/neustaedt.html"> Neustädt über Gerstungen</placeName>, Thüringen.
+<lb/>Herrn Professor Dr. <persName ref="http://d-nb.info/gnd/142041769">Helmuth Kanter</persName>, <placeName ref="https://www.geonames.org/2873759/marburg-an-der-lahn.html">Marburg</placeName>, Marbach 136
+</p>
+<p>
+<lb/>Die restlichen 15 Exemplare erbitte ich an meine hiesige Adresse. Die Absendung,
+<lb/><choice><sic>,auch</sic><corr resp="Schiller">auch</corr></choice>der vier zusätzlichen an Prof. <persName ref="http://d-nb.info/gnd/117273260">Termer</persName>, Staatsrat <persName ref="http://d-nb.info/gnd/12436165X"> Helfferich</persName>, <placeName ref="https://www.geonames.org/2911298/hamburg.html">Hamburg</placeName> Ameri-
+<lb/>
+<lb/>ka Linie<note type="editorial">Diese bezeichnet eine Eisenbahnverbindung, die durch die Lüneburger Heide bis nach Stendal führt. Ursprünglich war sie Teil einer direkten Streckenverbindung von Magdeburg und Berlin bis zu den Häfen an der Nordsee. An diesen gab es die Möglichkeit durch Schiffsverbindungen bis nach Amerika zu reisen.</note> (Aldag) und <persName><choice><sic>Schreiter</sic><corr resp="Karl Helbig">Herrn<note type="editorial">Dieses Wort wurde zusätzlich ergänzt und befindet sich zwischen den Zeilen oberhalb des Namens "Schreiter". Durch eine Linie wurde kenntlich gemacht, an welcher Stelle das Wort eigentlich stehen sollte.</note> Schreiter</corr></choice></persName>, kann doch sicherlich auch in den nächsten Tagen
+<lb/>erfolgen? — Bitte, legen Sie meiner Sendung auch eine Anzahl Prospekte bei.
+<lb/>Mich interessieren noch der Verkaufspreis bzw. der dem Vertrag zugrundegelegte
+<lb/>Rohpreis<note type="editorial">Wird auch als Richtpreis bezeichnet, der ohne die Berücksichtung von Kalkulationsaspekten und der Marktsituation gebildet wird. Diese Angabe ist demnach nur eine grobe Orientierung, wovon der letztendliche Verkaufspreis abweichen kann.</note>. Bitte, teilen Sie ihn mir gelegentlich doch mit.
+</p>
+<closer>
+<lb/><salute>Mit freundlichen Grüssen
+<lb/>und Heil Hitler</salute>:
+<lb/>Ihr sehr ergebener
+<lb/><signed><personName ref="http://d-nb.info/gnd/128547553">Karl Helbig</personName>
+</signed></closer>
+      </div>
+    </body>
+  </text>
+</TEI>

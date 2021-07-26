@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Vieweg Archiv</title>
+        <author>
+          <persName ref="http://d-nb.info/gnd/128547553">
+            <surname>Helbig</surname>
+            <forename>Karl</forename>
+          </persName>
+        </author>
+        <respStmt>
+          <persName>
+            <surname>Wucher</surname>
+            <forename>Annemarie</forename>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility">Bearbeitung der digitalen Edition.</note>
+            <date type="importDTA">2021-07-12T09:38:32Z</date>
+          </resp>
+        </respStmt>
+        <respStmt>
+          <orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+          <resp>
+            <note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+            <ref target="https://www.bbaw.de"/>
+          </resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+      <extent>
+        <measure type="images"/>
+        <measure type="tokens"/>
+        <measure type="types"/>
+        <measure type="characters"/>
+      </extent>
+      <publicationStmt>
+        <publisher xml:id="DTACorpusPublisher">
+          <email>dta@bbaw.de</email>
+          <orgName role="project">Deutsches Textarchiv</orgName>
+          <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+          <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+          <address>
+            <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+            <country>Germany</country>
+          </address>
+        </publisher>
+        <pubPlace>Berlin</pubPlace>
+        <date type="publication">2021-07-12T09:38:32Z</date>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+<msIdentifier><idno>UABS V 1 H111 (5)</idno></msIdentifier>
+</msDesc>
+        <bibl type="M"/>
+        <biblFull>
+          <titleStmt>
+          <title level="m" type="main">Vieweg Archiv</title>
+            <author>
+              <persName ref="http://d-nb.info/gnd/128547553">
+                <surname>Helbig</surname>
+                <forename>Karl</forename>
+              </persName>
+            </author>
+          </titleStmt>
+          <editionStmt>
+            <edition n="1"/>
+          </editionStmt>
+          <publicationStmt>
+            <publisher><name>Vieweg &amp; Sohn</name></publisher>
+            <date type="creation">1940</date>
+          </publicationStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>
+            Bogensignaturen: keine Angabe;
+            Druckfehler: keine Angabe;
+            fremdsprachliches Material: keine Angabe;
+            Geminations-/Abkürzungsstriche: keine Angabe;
+            Hervorhebungen (Antiqua, Sperrschrift, Kursive etc.): keine Angabe;
+            I/J in Fraktur: keine Angabe;
+            i/j in Fraktur: keine Angabe;
+            Kolumnentitel: keine Angabe;
+            Kustoden: keine Angabe;
+            langes s (ſ): keine Angabe;
+            Normalisierungen: keine Angabe;
+            rundes r (&amp;#xa75b;): keine Angabe;
+            Seitenumbrüche markiert: keine Angabe;
+            Silbentrennung: keine Angabe;
+            u/v bzw. U/V: keine Angabe;
+            Vokale mit übergest. e: keine Angabe;
+            Vollständigkeit: keine Angabe;
+            Zeichensetzung: keine Angabe;
+            Zeilenumbrüche markiert: keine Angabe;
+        </p>
+        <p>Zeilengetreue Transkription mit Transkribus</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="deu">(Früh-)Neuhochdeutsch</language>
+      </langUsage>
+      <textClass>
+        <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <pb facs="#f0001" />
+    <body>
+      <div>
+<p>
+<lb/>Einschreiben
+<lb/> <persName ref="http://d-nb.info/gnd/128547553">Dr. K. Helbig</persName>, <placeName ref="https://www.geonames.org/2948066/blankenese.html">Blankenese</placeName>
+<lb/> <placeName ref="https://www.geonames.org/2911298/hamburg.html">b. Hamburg</placeName>, Chanlottenstr. 11
+<lb/> <date>22.4.40</date>
+<lb/>Postscheck <placeName ref="https://www.geonames.org/2911298/hamburg.html">Hamburg</placeName> 48072
+</p>
+
+<p><lb/>An den Verlag
+<lb/>Friedr.
+<lb/>Vieweg und Sohn
+<lb/> <placeName ref="https://www.geonames.org/2945024/braunschweig.html">Braunschweig</placeName>
+</p>
+<p><lb/><opener>Sehr geehrte Herren,</opener>
+<lb/>in der Hoffnung, dass  Ihnen Inhalt und Darstellung meines Berichtes
+<lb/>einigermassen zusagen moechten, bringe ich diesen heute nun zur Absendung.
+<lb/>Ich bitte dabei nochmals um guetige Entschuldigung, dass ich den Ablieferungs-
+<lb/>termin um einige Wochen ueberschritten habe; es war mir selbst nicht recht
+<lb/>so, aber liess sich leider nicht anders ermöglichen.
+<lb/>Es waere schade, wenn die gute Aufnahme etwa durch die Laenge des Manus-
+<lb/>skriptes getruebt werden könnte. Da jedoch in den Gesprächen zwischen Ihnen,
+<lb/>Herrn Schwarz und mir mehrfach betont wurde, dass das Buch ruhig umfangrei-
+<lb/>cher werden koennte als die bisherigen, so will ich mir jetzt noch nicht all-
+<lb/>zu viele Gedanken darueber machen. Von einer solchen umfangreichen Reise
+<lb/>liess sich einfach nicht weniger schreiben, und alles erscheint dann auch
+<lb/>irgendwie interessant oder doch zumindest mitteilungswert bzw. auch hier
+<lb/>und da aunschmueckend.
+<lb/>Es wird Ihnen nun gewiss einige Zeit nehmen, den ganzen Bericht durch-
+<lb/>zusehen und es werden vielleicht Wochen darueber vergehen, ehe ich Ihre Stel-
+<lb/>lungnahme erfahren werde. Doch bitte ich Sie sehr, mir zunaehst wenigstens
+<lb/>den guten Eingang der Sendung zu bestaetigen, damit ich mich nicht um den
+<lb/>Verbleib sorgen brauche. Fuer alle Ihre Wuensche, auch betreffs der Illustrie-
+<lb/>rung, ist dann spaeter noch Zeit. Vielleicht komme ich dann auch persoenlich
+<lb/>noch einmal nach Braunschweig, wenn es erforderlich ist. Ich moechte heute
+<lb/>jedoch schon sagen, dass die Einfuegung einer Karte von Borneo, am besten mit
+<lb/>meiner Reiseroute, wohl unumgänglich ist. Mit Vorlagen dafuer stehe ich selbst-
+<lb/>verständlich zur Verfügung.
+<lb/>Ihnen fuer Ihren guetigen Auftrag und Ihr grosses Vertrauen stets dan-
+<lb/>kend, bin ich
+</p>
+<p><lb/><closer><salute>Mit bester Empfehlung
+<lb/>und Heil Hitler:</salute>
+<lb/>Ihr ergebenster
+<lb/> <persName ref="http://d-nb.info/gnd/128547553">Karl Helbig</persName></closer>
+</p>
+      </div>
+    </body>
+  </text>
+</TEI>

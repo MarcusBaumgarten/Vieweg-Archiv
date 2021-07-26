@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model
+href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+?>
+<?xml-model
+href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"
+?>
+<TEI>
+   <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Vieweg Archiv</title>
+        <author>
+          <persName ref="http://d-nb.info/gnd/128547553">
+            <surname>Helbig</surname>
+            <forename>Karl</forename>
+          </persName>
+        </author>
+        <respStmt>
+          <persName>
+            <surname>Krüger</surname>
+            <forename>Malin</forename>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility">Bearbeitung der digitalen Edition.</note>
+            <date type="importDTA">2021-07-05T15:54:12Z</date>
+          </resp>
+        </respStmt>
+        <respStmt>
+          <orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+          <resp>
+            <note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+            <ref target="https://www.bbaw.de"/>
+          </resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+      <extent>
+        <measure type="images"/>
+        <measure type="tokens"/>
+        <measure type="types"/>
+        <measure type="characters"/>
+      </extent>
+      <publicationStmt>
+        <publisher xml:id="DTACorpusPublisher">
+          <email>dta@bbaw.de</email>
+          <orgName role="project">Deutsches Textarchiv</orgName>
+          <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+          <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+          <address>
+            <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+            <country>Germany</country>
+          </address>
+        </publisher>
+        <pubPlace>Berlin</pubPlace>
+        <date type="publication">2021-07-05T15:54:12Z</date>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+        <msIdentifier><idno>UABS V1 H111 (18) (19)</idno></msIdentifier>
+        </msDesc>
+        <bibl type="M"/>
+        <biblFull>
+          <titleStmt>
+          <title level="m" type="main">Vieweg Archiv</title>
+            <author>
+              <persName ref="http://d-nb.info/gnd/128547553">
+                <surname>Helbig</surname>
+                <forename>Karl</forename>
+              </persName>
+            </author>
+          </titleStmt>
+          <editionStmt>
+            <edition n="1"/>
+          </editionStmt>
+          <publicationStmt>
+            <publisher/>
+              <pubPlace>Hamburg</pubPlace>
+            <date type="publication">1940</date>
+          </publicationStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>
+            Bogensignaturen: keine Angabe;
+            Druckfehler: keine Angabe;
+            fremdsprachliches Material: keine Angabe;
+            Geminations-/Abkürzungsstriche: keine Angabe;
+            Hervorhebungen (Antiqua, Sperrschrift, Kursive etc.): keine Angabe;
+            I/J in Fraktur: keine Angabe;
+            i/j in Fraktur: keine Angabe;
+            Kolumnentitel: keine Angabe;
+            Kustoden: keine Angabe;
+            langes s (ſ): keine Angabe;
+            Normalisierungen: keine Angabe;
+            rundes r (&amp;#xa75b;): keine Angabe;
+            Seitenumbrüche markiert: keine Angabe;
+            Silbentrennung: keine Angabe;
+            u/v bzw. U/V: keine Angabe;
+            Vokale mit übergest. e: keine Angabe;
+            Vollständigkeit: keine Angabe;
+            Zeichensetzung: keine Angabe;
+            Zeilenumbrüche markiert: keine Angabe;
+        </p>
+        <p>Zeilengetreue Transkription mit Transkribus </p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="deu">(Früh-)Neuhochdeutsch</language>
+      </langUsage>
+      <textClass>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+    <text>
+        <pb facs="#f0001" />
+        <body>
+            <div type="postcard">
+              <pb facs="#f0001" corresp="https://transkribus.eu/lite/collection/98169/doc/669149/detail/1?view=image"/>
+                <opener>
+                <p>
+                <lb />Absender: Dr. <persName ref="https://d-nb.info/gnd/128547553">K. 
+                <lb />Helbig</persName>, Blankenese 
+                <lb />Wohnort, auch Zustell- oder Leitpostamt b. <placeName ref="https://www.geonames.org/2911298/hamburg.html">Hamburg</placeName>, Charlottenstr. 11 
+                <lb />Postscheck <placeName ref="https://www.geonames.org/2911298/hamburg.html">Hamburg</placeName> 48072 
+                <lb />Straße, Hausnummer, Gebäubeteil, Stockwerk ob. Postschließfachnummer</p>
+                <p>
+                <lb />Postkarte 
+                <lb />Ermäßigte 
+                <lb />Gebühr 
+                <lb />frei! 
+                <lb />Zustellung</p>
+                <p>
+                <lb />An die 
+                <lb />Verlagsbuchhandlung 
+                <lb />Friedr. Vieweg &amp; Sohn,</p>
+                <p>
+                <lb /><placeName ref="https://www.geonames.org/6552297/braunschweig.html">Braunschweig</placeName></p>
+                <p>
+                <lb />Straße, Hausnummer, Gebäudeteil, Stockwerk oder Postschließfachnummer</p>
+                <p>
+                <lb />Abl. <date when="27-06-1940">27. Jun. 1940</date></p>
+                <p>
+                <lb /><placeName ref="https://www.geonames.org/2911298/hamburg.html">Hamburg</placeName>, den <date when="26-06-1940">26. Juni 1940.</date></p></opener>
+                <p>
+                <lb />Ihr Zeichen: Kl/S.</p>
+                <p>
+                <opener>Sehr geehrte Herren !</opener></p>
+                <p>
+                <lb />Für Ihre Ausführungen vom <date when="25-06-1940">25.6.</date> danke ich 
+                <lb />Ihnen, gleichzeitig für die letzte Honorarüberwei- 
+                <lb />sung.- Bitte wählen Sie von den beiden vorgeschla- 
+                <lb />genen Bildern die Nr. 
+                <lb />35/4, falls Sie Nr. 51/2 
+                <lb />nicht für wirkungsvoller halten. - Betreffs der Um- 
+                <lb />schlagsgestaltung war es mir nicht klar, ob meine 
+                <lb />Mitwirkung von Nöten sei. 
+                <lb />Selbstverständlich über- 
+                <lb />lasse ich sie gern Ihnen. 
+                <lb />Ich hatte mir nur ge- 
+                <lb />dacht, dass ein schwaches, 
+                <lb />schattenhaftes Hineinar- 
+                <lb />beiten des Kopfes in den 
+                <lb />Hintergrund vielleicht 
+                <lb /><choice><sic>wirkungsvoller</sic><corr>wirkungsvoll</corr></choice> sein würde.- 
+                <lb />Dem Eingang des gekürz- 
+                <lb />ten Manuskriptes sehe ich 
+                <lb />entgegen. Den Vorschlä- 
+                <lb />gen werde ich mich nunmehr fügen, allein schon, um 
+                <lb />weitere Verzögerungen zu vermeiden.</p>
+                <closer>
+                <lb /><salute>Mit verbindlichen Empfehlungen und
+                <lb />Heil Hitler !</salute>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

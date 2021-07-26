@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main"/>
+        <author>
+          <persName ref="http://d-nb.info/gnd/128547553">
+            <surname>Helbig</surname>
+            <forename>Karl</forename>
+          </persName>
+        </author>
+        <respStmt>
+          <persName>
+            <surname>Karayurt</surname>
+            <forename>Anise</forename>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility">Bearbeitung der digitalen Edition.</note>
+            <date type="importDTA">2021-07-05T15:42:16Z</date>
+          </resp>
+        </respStmt>
+        <respStmt>
+          <orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+          <resp>
+            <note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+            <ref target="https://www.bbaw.de"/>
+          </resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+      <extent>
+        <measure type="images"/>
+        <measure type="tokens"/>
+        <measure type="types"/>
+        <measure type="characters"/>
+      </extent>
+      <publicationStmt>
+        <publisher xml:id="DTACorpusPublisher">
+          <email>dta@bbaw.de</email>
+          <orgName role="project">Deutsches Textarchiv</orgName>
+          <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+          <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+          <address>
+            <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+            <country>Germany</country>
+          </address>
+        </publisher>
+        <pubPlace>Berlin</pubPlace>
+        <date type="publication">2021-07-05T15:42:16Z</date>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+        <msIdentifier>
+          <idno>UABS V1 H111 (40)</idno>
+        </msIdentifier>
+        </msDesc>
+        <bibl type="M"/>
+        <biblFull>
+          <titleStmt>
+          <title level="m" type="main"/>
+            <author>
+              <persName ref="http://d-nb.info/gnd/128547553">
+                <surname>Helbig</surname>
+                <forename>Karl</forename>
+              </persName>
+            </author>
+          </titleStmt>
+          <editionStmt>
+            <edition n="1"/>
+          </editionStmt>
+          <publicationStmt>
+            <publisher><name>Vieweg &amp; Sohn</name></publisher>
+            <date type="creation">1940</date>
+          </publicationStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>
+            Bogensignaturen: keine Angabe;
+            Druckfehler: keine Angabe;
+            fremdsprachliches Material: keine Angabe;
+            Geminations-/Abkürzungsstriche: keine Angabe;
+            Hervorhebungen (Antiqua, Sperrschrift, Kursive etc.): keine Angabe;
+            i/j in Fraktur: keine Angabe;
+            I/J in Fraktur: keine Angabe;
+            Kolumnentitel: keine Angabe;
+            Kustoden: keine Angabe;
+            langes s (ſ): keine Angabe;
+            Normalisierungen: keine Angabe;
+            rundes r (&amp;#xa75b;): keine Angabe;
+            Seitenumbrüche markiert: keine Angabe;
+            Silbentrennung: keine Angabe;
+            u/v bzw. U/V: keine Angabe;
+            Vokale mit übergest. e: keine Angabe;
+            Vollständigkeit: keine Angabe;
+            Zeichensetzung: keine Angabe;
+            Zeilenumbrüche markiert: keine Angabe;
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="deu">(Früh-)Neuhochdeutsch</language>
+      </langUsage>
+      <textClass>
+        <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  </teiHeader>
+  <text>
+    <pb facs="#f0001"/>
+    <body>
+      <div>
+       
+          <pb facs="#f0001" corresp="ttps://transkribus.eu/lite/collection/98169/doc/672092/detail/1?view=image"/>
+<lb/> <opener> <p>Dr.<persName ref="http://d-nb.info/gnd/128547553">K. Helbig</persName> , <placeName ref="https://www.geonames.org/2948066/blankenese.html">Bankenese</placeName>73
+<lb/>b. <placeName ref= "https://www.geonames.org/2911298/hamburg.html">Hamburg</placeName>, Charlottenstr.11
+<lb/><date> 8.10.40</date></p>
+<lb/><p>Postscheck <placeName ref= "https://www.geonames.org/2911298/hamburg.html">Hamburg</placeName> 48072
+<lb/>An den Verlag Friedrich Vieweg
+<lb/>Ihr Zeichen: Z/N.
+<lb/> <placeName ref="https://www.geonames.org/2945024/braunschweig.html">Braunschweig</placeName> </p>
+<p>Sehr geehrte Herren!</p> </opener>
+<lb/>Heute möchte ich mich einmal nach dem Stand des <bookName>Borneo-Buches</bookName> erkun-
+<lb/>digen. Ihre Hoffnung, es noch im September fertig zu stellen, hat sich sicher der
+<lb/>vielfachen technischen Schwierigkeiten halber nicht verwirklichen lassen? Bitte,
+<lb/>könnten Sie mir ungefähr sagen, wann wohl mit der Uebersendung der ersten Exem-
+<lb/>plare zu rechnen sein dürfte? Ich bitte dann auch gleich um Mitsendung einer
+<lb/>grösseren Anzahl von Prospekten, die ich auf meinen (im November beginnenden)
+<lb/>Vortragsreisen usw. verwenden kann. Weiter wollen Sie bitte im Anschluss an mei-
+<lb/>ne Adressen-Aufstellungen vom <date>10.9.</date> noch notieren:
+<lb/>Prospekte mit besonderem Hinweis an folgende Persönlichkeiten:
+<lb/> <p>Herrn <persName>Heinrich Barkowsky</persName>, <placeName ref= "https://www.geonames.org/2911298/hamburg.html">Hamburg-Harburg</placeName>, Mühlenstr. 18 II,bei Beurmann
+<lb/>Herrn Prof. Dr. <persName>Reinhard</persName>, Direktor des D.Museums f.Laenderkunde, <placeName ref= "https://www.geonames.org/2879139/leipzig.html">Leipzig</placeName>,Hinter d.
+<lb/>Johanniskirche 1
+<lb/>Herr Dr. <persNAme>Voppel</persNAme>, ebenda
+<lb/>Herr
+<lb/>Dr. <persName>Damm</persName>, Museum f. Völkerkunde,<placeName ref= "https://www.geonames.org/2879139/leipzig.html">Leipzig</placeName> ,Neues Grassi Museum
+<lb/>"
+<lb/>"
+<lb/>Geh. Medizinalrat Prof. Dr. <persName>Kruse</persName>,<placeName ref= "https://www.geonames.org/2879139/leipzig.html">Leipzig O 27</placeName> , Bozenerweg 28
+<lb/>Dr. <persName ref= "http://d-nb.info/gnd/1028923805">Fritz Koppe</persName>, <placeName ref= "https://www.geonames.org/2949186/bielefeld.html">Bielefeld</placeName>, Sedanstr. 20
+<lb/>Dr. <persName>Georg Froelich</persName>, <placeName ref="https://www.geonames.org/2904789/hildesheim.html">Hildesheim</placeName>, Sedanstr. 18
+<lb/>Prof. Dr. <persName>Troll</persName>, <placeName ref="https://www.geonames.org/2946447/bonn.html">Bonn/Rh.</placeName> Nassestr. 1
+<lb/>"
+<lb/>Dr. <persName>Lukas</persName>, <placeName ref= "https://www.geonames.org/2911298/hamburg.html">Hamburg</placeName> 13.Rothenbaumchaussee 5, Inst. f. Afrikanische Sprachen
+<lb/>"
+<lb/>13,Rothenbaumchaussee 17. Hansa-Lichtbildstelle
+<lb/><persName>Bredereke</persName>,
+<lb/>"
+<lb/><persName>Urban</persName>, <placeName ref= "https://www.geonames.org/2911298/hamburg.html">Hamburg</placeName>, Grosser Burstah, Devisenstelle, Zimmer 74
+<lb/>"
+<lb/><persName>Schulz</persName>, Buchhandler, <placeName ref="https://www.geonames.org/2923850/fuhlsbuettel.html">Hamburg-Fuhlsbüttel</placeName>, Alsterkrugchaussee 526 </p>
+<p>Schliesslich bitte ich noch, zu vermerken, dass sich die Adresse von Herrn
+<lb/><persName>Erich Schreiter</persName>, am Schluss meines Schreibens vom <date>10.9.</date> unter Nr. 2 genannt,
+<lb/>ab <date>1.10.</date> wie folgt geandert hat:<placeName ref= "https://www.geonames.org/2911298/hamburg.html">Hamburg</placeName> , Bethesdastr. 12 III. </p>
+<p> <closer> <salute>Mit bester Begrüssung
+<lb/>und Heil Hitler:</salute>
+<lb/>Ihr ergebenster
+<lb/> <signed>Karl
+<lb/>Helbig </signed> </closer> </p> 
+</div>
+    </body>
+  </text>
+</TEI>

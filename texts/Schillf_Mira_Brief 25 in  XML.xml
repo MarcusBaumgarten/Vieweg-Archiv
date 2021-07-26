@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Vieweg Archiv</title>
+        <title type="sub">Viewegbrief 25 von Friedr. Vieweg &amp; Sohn, an Herrn Dr. Helbig</title>
+        <respStmt>
+          <persName>
+            <surname>Schilff</surname>
+            <forename>Mira</forename>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility">Bearbeitung der digitalen Edition.</note>
+            <date type="importDTA">2021-07-05T15:55:25Z</date>
+          </resp>
+        </respStmt>
+        <respStmt>
+          <resp>
+            <note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+            <ref target="https://www.bbaw.de"/>
+          </resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+      <extent>
+        <measure type="images"/>
+        <measure type="tokens"/>
+        <measure type="types"/>
+        <measure type="characters"/>
+      </extent>
+      <publicationStmt>
+        <publisher xml:id="DTACorpusPublisher">
+          <email>dta@bbaw.de</email>
+          <orgName role="project">Deutsches Textarchiv</orgName>
+          <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+          <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+          <address>
+            <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+            <country>Germany</country>
+          </address>
+        </publisher>
+        <pubPlace>Berlin</pubPlace>
+        <date type="publication">2021-07-05T15:55:25Z</date>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+        <msIdentifier><idno>UABS V1 H111 (25)</idno></msIdentifier>
+        </msDesc>
+        <bibl type="M"/>
+        <biblFull>
+          <titleStmt>
+          <title level="m" type="main">Vieweg Archiv</title>
+          <title level="m" type="sub">Viewegbrief 25</title>
+          </titleStmt>
+          <editionStmt>
+            <edition n="1"/>
+          </editionStmt>
+          <publicationStmt>
+            <publisher><name>Vieweg &amp; Sohn</name></publisher>
+            <date type="publication">1940</date>
+          </publicationStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>
+            Bogensignaturen: keine Angabe;
+            Druckfehler: keine Angabe;
+            fremdsprachliches Material: keine Angabe;
+            Geminations-/Abkürzungsstriche: keine Angabe;
+            Hervorhebungen (Antiqua, Sperrschrift, Kursive etc.): keine Angabe;
+            i/j in Fraktur: keine Angabe;
+            I/J in Fraktur: keine Angabe;
+            Kolumnentitel: keine Angabe;
+            Kustoden: keine Angabe;
+            langes s (ſ): keine Angabe;
+            Normalisierungen: keine Angabe;
+            rundes r (&amp;#xa75b;): keine Angabe;
+            Seitenumbrüche markiert: keine Angabe;
+            Silbentrennung: keine Angabe;
+            u/v bzw. U/V: keine Angabe;
+            Vokale mit übergest. e: keine Angabe;
+            Vollständigkeit: keine Angabe;
+            Zeichensetzung: keine Angabe;
+            Zeilenumbrüche markiert: keine Angabe;
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="deu">(Früh-)Neuhochdeutsch</language>
+      </langUsage>
+      <textClass>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <pb facs="#f0001"/>
+    <body>
+      <div>
+        <pb facs="#f0001" corresp="https://transkribus.eu/lite/collection/98169/doc/669164/detail/1?view=image" /> 
+<p>Herrn
+<lb/>Dr.<persName ref="http://d-nb.info/gnd/128547553"> Karl Helbig</persName>
+<lb/><placeName ref="https://www.geonames.org/2948066/blankenese.html">Blankenese bei Hamburg</placeName>
+<lb/>Charlottenstrasse 11 </p>
+<p><date when="13-08-1940">13. August 1940</date>
+<lb/>Z/S. 344</p>
+<opener>Sehr geehrter Herr Dr.<persName ref="http://d-nb.info/gnd/128547553"> Helbig!</persName></opener>
+<p>Wir übermitteln Ihnen hierbei je einen Abzug der Abbildungen
+<lb/>zu Ihrem "Borneo- Buch". Sie werden Ihnen gewiss gefallen, denn
+<lb/>die Ätzanstalt hat sehr viel herausgeholt.</p>
+<p>Es ist nun notwendig, dass wir die richtige Beschriftung unter
+<lb/>die Bilder setzen. Seien Sie deswegen so freundlich, diese mit
+<lb/>Blei unter die Abzüge einzutragen und sie uns dann zurückzugeben.
+<lb/>Bei Ihren Vorlagen fehlten einige Unterschriften; einige waren
+<lb/>zu ausführlich für den vorhandenen Raum. Es ist erforderlich,
+<lb/>dass ein- höchstens zweizeilige präzise, aber auch interessante
+<lb/>Unterschriften gegeben werden.</p>
+<p>Für möglichst schnelle Erledigung wären wir Ihnen dankbar.</p>
+<closer>
+<lb/><salute>Mit freundlichen Grüssen
+<lb/>Heil Hitler!</salute>
+<lb/><signed><orgName ref="http://d-nb.info/gnd/2010996-9">Friedr. Vieweg &amp; Sohn</orgName></signed> </closer>
+<postscript>
+<p>Die Bildabzüge gehen nebenher als
+<lb/>Einschreibesendung. Die Vorlagen
+<lb/>erbitten wir gleichfalls mit den
+<lb/>Abzügen zurück.</p></postscript>
+      </div>
+    </body>
+  </text>
+</TEI>

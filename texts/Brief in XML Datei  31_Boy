@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Vieweg Archiv</title>
+        <author>
+          <persName ref="http://d-nb.info/gnd/128547553">
+            <surname>Helbig</surname>
+            <forename>Karl</forename>
+          </persName>
+        </author>
+        <respStmt>
+          <persName>
+            <surname>Boy</surname>
+            <forename>Vanessa</forename>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility">Bearbeitung der digitalen Edition.</note>
+            <date type="importDTA">2021-07-12T16:09:37Z</date>
+          </resp>
+        </respStmt>
+        <respStmt>
+          <orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+          <resp>
+            <note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+            <ref target="https://www.bbaw.de"/>
+          </resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+      <extent>
+        <measure type="images"/>
+        <measure type="tokens"/>
+        <measure type="types"/>
+        <measure type="characters"/>
+      </extent>
+      <publicationStmt>
+        <publisher xml:id="DTACorpusPublisher">
+          <email>dta@bbaw.de</email>
+          <orgName role="project">Deutsches Textarchiv</orgName>
+          <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+          <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+          <address>
+            <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+            <country>Germany</country>
+          </address>
+        </publisher>
+        <pubPlace>Berlin</pubPlace>
+        <date type="publication">2021-07-12T16:09:37Z</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="M"/>
+        <biblFull>
+          <titleStmt>
+          <title level="m" type="main">Vieweg Archiv</title>
+            <author>
+              <persName ref="http://d-nb.info/gnd/128547553">
+                <surname>Helbig</surname>
+                <forename>Karl</forename>
+              </persName>
+            </author>
+          </titleStmt>
+          <editionStmt>
+            <edition n="1"/>
+          </editionStmt>
+          <publicationStmt>
+            <publisher><name>Vieweg &amp; Sohn</name></publisher>
+            <date type="creation">1940</date>
+          </publicationStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>
+            Bogensignaturen: keine Angabe;
+            Druckfehler: keine Angabe;
+            fremdsprachliches Material: keine Angabe;
+            Geminations-/Abkürzungsstriche: keine Angabe;
+            Hervorhebungen (Antiqua, Sperrschrift, Kursive etc.): keine Angabe;
+            I/J in Fraktur: keine Angabe;
+            i/j in Fraktur: keine Angabe;
+            Kolumnentitel: keine Angabe;
+            Kustoden: keine Angabe;
+            langes s (ſ): keine Angabe;
+            Normalisierungen: keine Angabe;
+            rundes r (&amp;#xa75b;): keine Angabe;
+            Seitenumbrüche markiert: keine Angabe;
+            Silbentrennung: keine Angabe;
+            u/v bzw. U/V: keine Angabe;
+            Vokale mit übergest. e: keine Angabe;
+            Vollständigkeit: keine Angabe;
+            Zeichensetzung: keine Angabe;
+            Zeilenumbrüche markiert: keine Angabe;
+        </p>
+        <p>zeilengetreue Transkription mit Transkribus</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="deu">(Früh-)Neuhochdeutsch</language>
+      </langUsage>
+      <textClass>
+        <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <pb facs="#f0001"/>
+    <body>
+      <div>
+<p>
+  <pb facs="#0001" corresp="https://transkribus.eu/lite/collection/98169/doc/669139/detail/1"/>
+<lb/>Druckerei
+<lb/>weitergegeben
+<lb/>26.8.40</p>
+<p>/)1
+<lb/>311
+<lb/><persName ref="http://d-nb.info/gnd/1031831177">K. Helbig</persName>, <placeName ref="https://www.geonames.org/2948066/blankenese.html">Blankenese</placeName> 10
+<lb/>Dr
+<lb/>26. AUG 1940
+<lb/><placeName ref="https://www.geonames.org/2910685/harburg.html">Hamburg</placeName>, Charlottenstr.11
+<lb/>b.
+<date>24.8.40</date>
+<lb/>Postscheck <placeName ref="https://www.geonames.org/2910685/harburg.html">Hamburg</placeName> 48072
+<lb/>26.8.40
+<lb/>Ihr Zeichen:
+<lb/>An den
+<lb/>Vieweg &amp; Sohn
+<lb/>Verlag Friedrich
+<lb/>Z/N.20.8.40
+<lb/><placeName ref="https://www.geonames.org/2945024/braunschweig.html">Braunschweig</placeName>_</p>
+<opener>Sehr geehrte Herren!</opener>
+<p>Im Besitz Ihrer beiden letzten Schreiben vom 19.und 20. d.M., für die
+<lb/>ich zu danken habe, möchte ich Ihnen zunächst mitteilen, dass bereits Herr Schwarz
+<lb/>wegen des Klappentextes an mich geschrieben und angeregt hatte, diesen Text gewis
+<lb/>sermassen als Empfehlung von irgendeiner wissenschaftlich hochstehenden und be-
+<lb/>kannten Persönlichkeit verfassen bzw. doch unterzeichnen zu lassen. Ich hatte
+<lb/>mich daraufhin an Herrn Professor Dr. <persName ref="http://d-nb.info/gnd/117273260">Franz Termer</persName>, den Direktor des Museums f.
+<lb/>Völkerkunde in <placeName ref="https://www.geonames.org/2910685/harburg.html">Hamburg</placeName>, gewandt. Herr Professor <persName ref="http://d-nb.info/gnd/117273260">Termer</persName> ist über meine Reisen und
+<lb/>Arbeiten bestens unterrichtet und kennt mich auch gut persönlich. Er ist nun so
+<lb/>liebenswürdig gewesen, beigefügten Text mit seinem Namen zu decken. Ob er nun den
+<lb/>Ansprüchen genügt, die Sie an einen solchen Klappentext stellen, weiss ich nicht.
+<lb/>Doch möchte ich immerhin meinen, dass man ihn doch nun (wenn vielleicht auch mit
+<lb/>eine in wissenschaftlichen Kreisen so bekannte Persönlichkeit, wie Herr Prof.
+<lb/><persName ref="http://d-nb.info/gnd/117273260">Termer</persName> es ist, sich dafür eingesetzt hat.</p>
+<p>Zu der noch fehlenden Ueberschrift über die einführenden Zeilen möchte ich
+<lb/>es begrüssen, wenn Bezeichnungen wie'Vorwort'oder'Einführung' besser ersetzt wür-
+<lb/>den durch einige Worte wie "An den Leser“, um dadurch ausrücklich anzuregen, dass
+<lb/>der Leser diese Ausführungen gleich zuerst auch wirklich liest.</p>
+<p>Schliesslich mochte ich noch mitteilen, dass ich während der ersten Tage
+<lb/>der kommenden Woche in <placeName ref="https://www.geonames.org/2904789/hildesheim.html">Hildesheim</placeName> bin und gut einmal nach <placeName ref="https://www.geonames.org/2945024/braunschweig.html">Braunschweig</placeName> hinüber
+<lb/>kommen könnte, um evtl. einen Einblick in den Fortgang des Buches zu erhalten
+<lb/>und mit Ihnen gegebenenfalls noch über dieses und jenes zu sprechen. Ich würde
+<lb/>es begrüssen, wenn ich bis Dienstag früh nach <placeName ref="https://www.geonames.org/2904789/hildesheim.html">Hildesheim</placeName>-M., Zierenbergstr. 120
+<lb/>Nachricht von Ihnen haben könnte, ob Ihnen eine Stunde am Mittwoch oder <choice><sic>Donnerst</sic><corr>Donners- resp="original"</corr></choice>
+<lb/>tag Vormittag genehm ist (28.bzw.29.d.M.). Ich würde Ihnen dann sofort noch
+<lb/>mitteilen, wann ich mich einfinde. Ich möchte es wieder so einrichten, dass ich
+<lb/>dann von <placeName ref="https://www.geonames.org/2945024/braunschweig.html">Braunschweig</placeName> aus direkt nach <placeName ref="https://www.geonames.org/2910685/harburg.html">Hamburg</placeName> weiterfahre, wo ich spätestens bis
+<lb/>gegen 18 Uhr eintreffen muss.</p>
+<closer>
+<lb/><salute>Mit bester Begrüssung
+<lb/>und Heil Hitler:</salute>
+<lb/><signed><persName ref="http://d-nb.info/gnd/1031831177">Karl Helbig</persName></signed>
+</closer>
+<postscript>
+<p>Anlage</p>
+</postscript>
+      </div>
+    </body>
+  </text>
+</TEI>
