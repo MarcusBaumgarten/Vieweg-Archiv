@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schema/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="file:../schema/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
+      
       <titleStmt>
         <title type="main">Vieweg Archiv</title>
+        <title type="sub">Vieweg 31</title>
         <author>
           <persName ref="http://d-nb.info/gnd/128547553">
             <surname>Helbig</surname>
@@ -50,28 +52,37 @@
         </publisher>
         <pubPlace>Berlin</pubPlace>
         <date type="publication">2021-07-12T16:09:37Z</date>
-      </publicationStmt>
+        <publisher><name>Vieweg &amp; Sohn</name></publisher>
+        <date type="creation">1940</date>
+      </publicationStmt>  
       <sourceDesc>
         <bibl type="M"/>
         <biblFull>
           <titleStmt>
-          <title level="m" type="main">Vieweg Archiv</title>
-            <author>
-              <persName ref="http://d-nb.info/gnd/128547553">
-                <surname>Helbig</surname>
-                <forename>Karl</forename>
-              </persName>
-            </author>
+            <title level="m" type="main">Vieweg Brief</title>
+            <title level="m" type="sub">Vieweg 31</title>
           </titleStmt>
           <editionStmt>
             <edition n="1"/>
           </editionStmt>
           <publicationStmt>
-            <publisher><name>Vieweg &amp; Sohn</name></publisher>
-            <date type="creation">1940</date>
+            <publisher><name>Friedrich Vieweg und Sohn</name></publisher>
+            <date type="publication">1940</date>
           </publicationStmt>
         </biblFull>
-      </sourceDesc>
+        <msDesc xml:id="imagesource-1" corresp="#availability-imagesource-1">
+          <msIdentifier>
+            <repository>Vieweg Archiv</repository>
+            <idno>Vieweg 31</idno>
+            <idno>Signatur ***</idno>
+          </msIdentifier>
+          <physDesc>
+            <typeDesc>
+              <p>Textur</p>
+            </typeDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>      
     </fileDesc>
     <encodingDesc>
       <editorialDecl>
@@ -109,11 +120,10 @@
     </profileDesc>
   </teiHeader>
   <text>
-    <pb facs="#f0001"/>
     <body>
-      <div>
-<p>
-  <pb facs="#0001" corresp="https://transkribus.eu/lite/collection/98169/doc/669139/detail/1"/>
+      <div type="letter">
+        <pb facs="#0001" corresp="https://transkribus.eu/lite/collection/98169/doc/669139/detail/1" n="1"/>
+<p>  
 <lb/>Druckerei
 <lb/>weitergegeben
 <lb/>26.8.40</p>
@@ -133,6 +143,7 @@
 <lb/>Verlag Friedrich
 <lb/>Z/N.20.8.40
 <lb/><placeName ref="https://www.geonames.org/2945024/braunschweig.html">Braunschweig</placeName>_</p>
+        <div>
 <opener>Sehr geehrte Herren!</opener>
 <p>Im Besitz Ihrer beiden letzten Schreiben vom 19.und 20. d.M., für die
 <lb/>ich zu danken habe, möchte ich Ihnen zunächst mitteilen, dass bereits Herr Schwarz
@@ -156,7 +167,7 @@
 <lb/>kommen könnte, um evtl. einen Einblick in den Fortgang des Buches zu erhalten
 <lb/>und mit Ihnen gegebenenfalls noch über dieses und jenes zu sprechen. Ich würde
 <lb/>es begrüssen, wenn ich bis Dienstag früh nach <placeName ref="https://www.geonames.org/2904789/hildesheim.html">Hildesheim</placeName>-M., Zierenbergstr. 120
-<lb/>Nachricht von Ihnen haben könnte, ob Ihnen eine Stunde am Mittwoch oder <choice><sic>Donnerst</sic><corr>Donners- resp="original"</corr></choice>
+<lb/>Nachricht von Ihnen haben könnte, ob Ihnen eine Stunde am Mittwoch oder <choice><sic>Donnerst</sic><corr type="editorial">Donners-</corr></choice>
 <lb/>tag Vormittag genehm ist (28.bzw.29.d.M.). Ich würde Ihnen dann sofort noch
 <lb/>mitteilen, wann ich mich einfinde. Ich möchte es wieder so einrichten, dass ich
 <lb/>dann von <placeName ref="https://www.geonames.org/2945024/braunschweig.html">Braunschweig</placeName> aus direkt nach <placeName ref="https://www.geonames.org/2910685/harburg.html">Hamburg</placeName> weiterfahre, wo ich spätestens bis
@@ -169,6 +180,7 @@
 <postscript>
 <p>Anlage</p>
 </postscript>
+      </div>
       </div>
     </body>
   </text>

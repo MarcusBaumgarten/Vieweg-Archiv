@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../schema/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="file:../schema/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -53,8 +53,12 @@
         <date type="publication">2021-07-05T15:46:32Z</date>
       </publicationStmt>
       <sourceDesc>
-        <msDesc><msldentifier><idno>UABS V1 H111 (42)</idno></msldentifier></msDesc>
-        <bibl type="M"/>
+        <msDesc>
+          <msIdentifier>
+            <repository>Vieweg Archiv</repository>
+            <idno>UABS V1 H111 (42)</idno>
+          </msIdentifier>
+        </msDesc>        
         <biblFull>
           <titleStmt>
           <title level="m" type="main">Vieweg Archiv</title>
@@ -69,10 +73,12 @@
           <editionStmt>
             <edition n="1"/>
           </editionStmt>
+          
           <publicationStmt>
             <publisher/>
             <date type="creation">1940</date>
           </publicationStmt>
+          
         </biblFull>
       </sourceDesc>
     </fileDesc>
@@ -112,13 +118,14 @@
     </profileDesc>
   </teiHeader>
   <text>
-    <pb facs="#f0001" corresp="https://transkribus.eu/lite/collection/98169/doc/669150/detail/1?view=image"/>
     <body>
-      <div>
-<p>Dr. <personName ref="http://d-nb.info/gnd/128547553"> K. Helbig</personName>, <placeName ref="https://www.geonames.org/2948066/blankenese.html">Blankenese
+      <div type="letter">
+        <pb facs="#f0001" corresp="https://transkribus.eu/lite/collection/98169/doc/669150/detail/1?view=image" n="1"/>
+<p>Dr. <persName ref="http://d-nb.info/gnd/128547553"> K. Helbig</persName>, <placeName ref="https://www.geonames.org/2948066/blankenese.html">Blankenese
 <lb/>b. Hamburg</placeName>, Charlottenstr. 11
 </p>
-<lb/><date when="17-10-1940">17.10.40</date>
+        
+<p><date when="1940-10-17">17.10.40</date></p>
 <p>
 <lb/>Ihr Zeichen: Z/S
 <lb/>16.10.40
@@ -126,6 +133,7 @@
 <lb/><orgName ref="http://d-nb.info/gnd/2010996-9">Friedrich Vieweg Verlag</orgName>
 <lb/>Braunschweig
 </p>
+        <div>
 <opener>
 <lb/>Sehr geehrte Herren,
 </opener>
@@ -141,12 +149,12 @@
 <lb/>gebe ich nunmehr folgende Adressen für Freiexemplare an:
 </p>
 <p>
-<lb/>Fräulein <personName><choice><sic>Elisabteh</sic><corr resp="Schiller">Elisabeth</corr></choice>Helbig<note type="editorial">Schwester von Karl Helbig</note></personName>, <placeName ref="https://www.geonames.org/2904789/hildesheim.html">Hildesheim-M.</placeName> Zierenbergstr. 120: 5 Exemplare
+<lb/>Fräulein <persName><choice><sic>Elisabteh</sic><corr type="editorial">Elisabeth</corr></choice>Helbig<note type="editorial">Schwester von Karl Helbig</note></persName>, <placeName ref="https://www.geonames.org/2904789/hildesheim.html">Hildesheim-M.</placeName> Zierenbergstr. 120: 5 Exemplare
 <lb/>weiter je 1 Exemplar:
 <lb/>Herrn <persName ref="http://d-nb.info/gnd/1073363481"> David Gundert</persName>, <placeName ref="https://www.geonames.org/2825297/stuttgart.html">Stuttgart</placeName>, Hohestr. 6
 <lb/>Herrn Professor Dr. <persName ref="http://d-nb.info/gnd/1038207126"> Mau</persName>, Leiter der Orthopädischen Klinik, <placeName ref="https://www.geonames.org/2929853/eppendorf.html">Hamburg</placeName>,Eppendorfer-
 <lb/>Krankenhaus.
-<lb/>Herrn <persName><choice><sic>P.A.O.</sic><corr resp="Karl Helbig">P.A.<note type= "editorial">Buchstabe wurde gestrichen.</note>O.</corr></choice>Lauffer</persName>, <placeName ref="https://www.geonames.org/2704086/huvudsta.html">Huvudsta/Stockholm</placeName>, Storgatan 3, Schweden
+<lb/>Herrn <persName><choice><sic>P.A.O.</sic><corr>P.A.<note type= "editorial">Buchstabe wurde gestrichen.</note>O.</corr></choice>Lauffer</persName>, <placeName ref="https://www.geonames.org/2704086/huvudsta.html">Huvudsta/Stockholm</placeName>, Storgatan 3, Schweden
 <lb/>Herrn <persName>Jakob Freitag</persName>, <placeName ref="https://www.geonames.org/8505014/haslen.html"> Haslen</placeName>, Kanton Glarus, Schweiz.
 <lb/>Herrn <persName>F. Remppis,'s</persName> <placeName ref="https://www.geonames.org/2747599/scheveningen.html"> Gravenhage/Scheveningen</placeName>, Duinweg 25, Holland.
 <lb/>Herrn<persName> Karl Epple</persName>, <placeName ref="https://www.geonames.org/2927268/fellbach.html"> Fellbach bei Stuttgart</placeName>, Schreberweg 9
@@ -158,9 +166,9 @@
 </p>
 <p>
 <lb/>Die restlichen 15 Exemplare erbitte ich an meine hiesige Adresse. Die Absendung,
-<lb/><choice><sic>,auch</sic><corr resp="Schiller">auch</corr></choice>der vier zusätzlichen an Prof. <persName ref="http://d-nb.info/gnd/117273260">Termer</persName>, Staatsrat <persName ref="http://d-nb.info/gnd/12436165X"> Helfferich</persName>, <placeName ref="https://www.geonames.org/2911298/hamburg.html">Hamburg</placeName> Ameri-
+<lb/><choice><sic>,auch</sic><corr type="editorial">auch</corr></choice>der vier zusätzlichen an Prof. <persName ref="http://d-nb.info/gnd/117273260">Termer</persName>, Staatsrat <persName ref="http://d-nb.info/gnd/12436165X"> Helfferich</persName>, <placeName ref="https://www.geonames.org/2911298/hamburg.html">Hamburg</placeName> Ameri-
 <lb/>
-<lb/>ka Linie<note type="editorial">Diese bezeichnet eine Eisenbahnverbindung, die durch die Lüneburger Heide bis nach Stendal führt. Ursprünglich war sie Teil einer direkten Streckenverbindung von Magdeburg und Berlin bis zu den Häfen an der Nordsee. An diesen gab es die Möglichkeit durch Schiffsverbindungen bis nach Amerika zu reisen.</note> (Aldag) und <persName><choice><sic>Schreiter</sic><corr resp="Karl Helbig">Herrn<note type="editorial">Dieses Wort wurde zusätzlich ergänzt und befindet sich zwischen den Zeilen oberhalb des Namens "Schreiter". Durch eine Linie wurde kenntlich gemacht, an welcher Stelle das Wort eigentlich stehen sollte.</note> Schreiter</corr></choice></persName>, kann doch sicherlich auch in den nächsten Tagen
+<lb/>ka Linie<note type="editorial">Diese bezeichnet eine Eisenbahnverbindung, die durch die Lüneburger Heide bis nach Stendal führt. Ursprünglich war sie Teil einer direkten Streckenverbindung von Magdeburg und Berlin bis zu den Häfen an der Nordsee. An diesen gab es die Möglichkeit durch Schiffsverbindungen bis nach Amerika zu reisen.</note> (Aldag) und <persName><choice><sic>Schreiter</sic><corr>Herrn<note type="editorial">Dieses Wort wurde zusätzlich ergänzt und befindet sich zwischen den Zeilen oberhalb des Namens "Schreiter". Durch eine Linie wurde kenntlich gemacht, an welcher Stelle das Wort eigentlich stehen sollte.</note> Schreiter</corr></choice></persName>, kann doch sicherlich auch in den nächsten Tagen
 <lb/>erfolgen? — Bitte, legen Sie meiner Sendung auch eine Anzahl Prospekte bei.
 <lb/>Mich interessieren noch der Verkaufspreis bzw. der dem Vertrag zugrundegelegte
 <lb/>Rohpreis<note type="editorial">Wird auch als Richtpreis bezeichnet, der ohne die Berücksichtung von Kalkulationsaspekten und der Marktsituation gebildet wird. Diese Angabe ist demnach nur eine grobe Orientierung, wovon der letztendliche Verkaufspreis abweichen kann.</note>. Bitte, teilen Sie ihn mir gelegentlich doch mit.
@@ -169,8 +177,9 @@
 <lb/><salute>Mit freundlichen Grüssen
 <lb/>und Heil Hitler</salute>:
 <lb/>Ihr sehr ergebener
-<lb/><signed><personName ref="http://d-nb.info/gnd/128547553">Karl Helbig</personName>
+<lb/><signed><persName ref="http://d-nb.info/gnd/128547553">Karl Helbig</persName>
 </signed></closer>
+      </div>
       </div>
     </body>
   </text>

@@ -26,10 +26,15 @@
                        <br/>
                    </span>
                 <span class="author">
-                    <xsl:text>Erstellt von: </xsl:text><xsl:apply-templates select="//tei:titleStmt//tei:persName[1]/tei:forename"/>
+                    <xsl:text>Geschrieben von: </xsl:text><xsl:apply-templates select="//tei:author/tei:persName/tei:forename"/>
                     <xsl:text> </xsl:text>
-                    <xsl:apply-templates select="//tei:titleStmt//tei:persName[1]/tei:surname"/><br/>
-                </span>          
+                    <xsl:apply-templates select="//tei:author/tei:persName/tei:surname"/><br/>
+                </span> 
+                   <span class="editor">
+                       <xsl:text>transkribiert und bearbeitet von: </xsl:text><xsl:apply-templates select="//tei:respStmt//tei:persName/tei:forename"/>
+                       <xsl:text> </xsl:text>
+                       <xsl:apply-templates select="//tei:respStmt//tei:persName/tei:surname"/><br/>
+                   </span>
                </div>                
                 <hr/>
                 <xsl:apply-templates select="tei:text/tei:body/tei:div" />
@@ -63,8 +68,15 @@
         <br/>
     </xsl:template>
     
-    <xsl:template match="tei:choice">
-        <xsl:apply-templates></xsl:apply-templates>
+    
+    <xsl:template match="tei:sic">
+        <xsl:apply-templates/>
+    </xsl:template>
+    
+    <xsl:template match="tei:corr">
+        <xsl:text>[korrigiert: </xsl:text>
+        <xsl:apply-templates/>
+        <xsl:text>] </xsl:text>
     </xsl:template>
     
     <xsl:template match="tei:note[@place='right']">
