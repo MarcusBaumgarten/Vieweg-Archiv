@@ -8,25 +8,29 @@
     
     <xsl:output method="html" />
 	
-     <!--   <xsl:template match="tei:teiHeader" />
-<xsl:apply-templates />
-</xsl:template> -->
-
-
     <xsl:template match="tei:TEI">
         <html>
             <head>
                 <title>Vieweg Briefarchiv</title>
-                <style type="text/css">
-                    .note-right {
-                        float: right;
-                        font-style: italic;
-                    }
-                </style>
+                <link rel="stylesheet" type="text/css" href="../scripts/style.css"/>
             </head>
             <body>
-                <b> <xsl:apply-templates select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title" />  </b><br/>
-                <xsl:text>Erstellt von: </xsl:text><xsl:apply-templates select="tei:teiHeader[1]/tei:fileDesc[1]/tei:titleStmt[1]/tei:author[1]/tei:persName[1]"></xsl:apply-templates><br/>
+               <div class="meta">
+                    <span class="maintitle">
+                        <xsl:apply-templates select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@type='main']"/><br/>
+                    </span>
+                   <span class="subtitle">
+                       <xsl:text>- </xsl:text>
+                        <xsl:apply-templates select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@type='sub']"/>
+                       <xsl:text> -</xsl:text>
+                       <br/>
+                   </span>
+                <span class="author">
+                    <xsl:text>Erstellt von: </xsl:text><xsl:apply-templates select="//tei:titleStmt//tei:persName[1]/tei:forename"/>
+                    <xsl:text> </xsl:text>
+                    <xsl:apply-templates select="//tei:titleStmt//tei:persName[1]/tei:surname"/><br/>
+                </span>          
+               </div>                
                 <hr/>
                 <xsl:apply-templates select="tei:text/tei:body/tei:div" />
             </body>
@@ -45,7 +49,7 @@
     
     <xsl:template match="tei:p">
         <p>
-            <span style="margin-left: 5%"><xsl:apply-templates /></span>
+            <xsl:apply-templates />
         </p>
    </xsl:template>
     
@@ -70,28 +74,55 @@
     </xsl:template>
   
     <xsl:template match="tei:pb">
-        <b>
+        <xsl:choose>
+            <xsl:when test="@corresp">
+        <xsl:element name="a">
+            <xsl:attribute name="href">
+                <xsl:value-of select="@corresp"/>
+            </xsl:attribute>
+        <xsl:text>[Seite: </xsl:text>
             <xsl:apply-templates select="@n"/>
-        </b>
+            <xsl:text>]</xsl:text>
+        </xsl:element>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:text>[Seite: </xsl:text>
+                <xsl:apply-templates select="@n"/>
+                <xsl:text>]</xsl:text>
+            </xsl:otherwise>
+        </xsl:choose>
+        </xsl:template>
+    
+    <xsl:template match="//tei:text//tei:persName">
+        <xsl:choose>
+            <xsl:when test="@ref">
+                <a>
+                    <xsl:attribute name="href">
+                        <xsl:apply-templates select="@ref" />
+                    </xsl:attribute>
+                    <xsl:apply-templates />
+                </a>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:apply-templates/>
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:template>
     
-    <xsl:template match="tei:persName">
-        <a>
-            <xsl:attribute name="href">
-                <xsl:apply-templates select="@ref" />
-            </xsl:attribute>
-            <xsl:apply-templates />
-        </a>
-    </xsl:template>
-    
-    <xsl:template match="tei:placeName"> <span style="color: blue">
-        <a>
-            <xsl:attribute name="href">
-                <xsl:apply-templates select="@ref" />
-            </xsl:attribute>
-            <xsl:apply-templates />
-        </a>
-		</span>
+    <xsl:template match="//tei:text//tei:placeName">
+        <xsl:choose>
+            <xsl:when test="@ref">
+                <a>
+                    <xsl:attribute name="href">
+                        <xsl:apply-templates select="@ref" />
+                    </xsl:attribute>
+                    <xsl:apply-templates />
+                </a>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:apply-templates/>
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:template>
 	
 	<xsl:template match="tei:opener">
