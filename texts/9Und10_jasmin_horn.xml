@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Viewegarchiv</title>
+        <title type="sub">Viewegbrief 9 und 10 - von Karl Helbig an den Viewegverlag</title>
+        <author>
+          <persName ref="http://d-nb.info/gnd/128547553">
+            <surname>Helbig</surname>
+            <forename>Karl</forename>
+          </persName>
+        </author>
+        <respStmt>
+          <persName>
+            <surname>Horn</surname>
+            <forename>Jasmin</forename>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility">Bearbeitung der digitalen Edition.</note>
+            <date type="importDTA">2021-07-05T16:06:36Z</date>
+          </resp>
+        </respStmt>
+        <respStmt>
+          <orgName></orgName>
+          <resp>
+            <note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+            <ref target="https://www.bbaw.de"/>
+          </resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+      <extent>
+        <measure type="images"/>
+        <measure type="tokens"/>
+        <measure type="types"/>
+        <measure type="characters"/>
+      </extent>
+      <publicationStmt>
+        <publisher xml:id="DTACorpusPublisher">
+          <email>dta@bbaw.de</email>
+          <orgName role="project">Deutsches Textarchiv</orgName>
+          <address>
+            <addrLine></addrLine>
+            <country></country>
+          </address>
+        </publisher>
+        <pubPlace></pubPlace>
+        <date type="publication">2021-07-05T16:06:36Z</date>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/publicdomain/zero/1.0/">
+            <p>Dieses Werk ist gemeinfrei.</p>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="M"/>
+        <biblFull>
+          <titleStmt>
+          <title level="m" type="main">Viewegarchiv</title>
+          <title level="m" type="sub">Viewegbrief 9 und 10</title>
+            <author>
+              <persName ref="http://d-nb.info/gnd/128547553">
+                <surname>Helbig</surname>
+                <forename>Karl</forename>
+              </persName>
+            </author>
+          </titleStmt>
+          <editionStmt>
+            <edition n="1"/>
+          </editionStmt>
+          <publicationStmt>
+            <publisher/>
+            <date type="publication">1940</date>
+          </publicationStmt>
+        </biblFull>
+        <msDesc xml:id="imagesource-1" corresp="#availability-imagesource-1">
+          <msIdentifier>
+            <idno>UABS V1 H111 (9) (10)</idno>
+          </msIdentifier>
+          <physDesc>
+            <typeDesc>
+              <p>Antiqua</p>
+            </typeDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>
+            Bogensignaturen: keine Angabe;
+            Druckfehler: keine Angabe;
+            fremdsprachliches Material: keine Angabe;
+            Geminations-/Abkürzungsstriche: keine Angabe;
+            Hervorhebungen (Antiqua, Sperrschrift, Kursive etc.): keine Angabe;
+            i/j in Fraktur: keine Angabe;
+            I/J in Fraktur: keine Angabe;
+            Kolumnentitel: keine Angabe;
+            Kustoden: keine Angabe;
+            langes s (ſ): keine Angabe;
+            Normalisierungen: keine Angabe;
+            rundes r (&amp;#xa75b;): keine Angabe;
+            Seitenumbrüche markiert: keine Angabe;
+            Silbentrennung: keine Angabe;
+            u/v bzw. U/V: keine Angabe;
+            Vokale mit übergest. e: keine Angabe;
+            Vollständigkeit: keine Angabe;
+            Zeichensetzung: keine Angabe;
+            Zeilenumbrüche markiert: keine Angabe;
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="deu">(Früh-)Neuhochdeutsch</language>
+      </langUsage>
+      <textClass>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+    <text>
+        <body>
+            <div>
+<pb facs="#f0001" corresp="https://transkribus.eu/lite/de/collection/98169/doc/669124/detail/2"/>
+<opener><p><lb/>Dr. <persName ref="http://d-nb.info/gnd/128547553">K. Helbig</persName>, <placeName ref="https://www.geonames.org/2948066/blankenese.html">Blankenese</placeName>
+<lb/>b. <placeName ref="https://www.geonames.org/2911298/hamburg.html">Hamburg</placeName>, Charlottenstr. 11
+<lb/>Postscheck <placeName ref="https://www.geonames.org/2911298/hamburg.html">Hamburg</placeName> 48072</p>
+
+<p><lb/><date when="23-05-1940"> 23.5.40 </date></p>
+
+<p><lb/>Ihr Zeichen:Z/Kö. 344
+<lb/><date>10.5.40</date></p>
+
+<p><lb/>An
+<lb/><orgName ref="http://d-nb.info/gnd/2010996-9">Friedrich Vieweg &amp; Sohn</orgName>
+<lb/>Verlagsbuchhandlung
+<lb/><placeName ref="https://www.geonames.org/2945024/braunschweig.html">Braunschweig</placeName></p>
+
+<p><lb/>Sehr geehrte Herren,</p></opener>
+<p><lb/>für Ihre Ausführungen vom <date>10.5.</date> betreffs meines <placeName ref="https://www.geonames.org/1648148/borneo.html">Borneo</placeName>-Berichtes
+<lb/>danke ich Ihnen sehr. Recht erfreut bin ich über Ihre zustimmende Stellung-
+<lb/>nahme und die freundliche Beurteilung des Herrn <persName>Schwarz</persName>.</p>
+<p><lb/>Ausserordentlich viel Kopfzerbrechen aber bereitet mir die Frage ei-
+<lb/>ner Kürzung. Sie selber schreiben allerdings nicht, um wieviel gekürzt
+<lb/>werden müsste. Wenn jedoch Ihre Druckerei einen Umfang von 400 Seiten er-
+<lb/>rechnet - was mir zwar zweifellos als zu hoch geschätzt erscheint - und
+<lb/>Herr <persName>Schwarz</persName> von einer Beschränkung auf <choice><sic>o</sic><corr>&#248;</corr></choice><note type="editorial">durchgestrichenes o als Korrektur eines Tippfehlers oder als Durchschnittszeichen</note> 20 Bogen spricht,so müsste ja
+<lb/>&#177; 1/5 des ganzen Werkes <choice><sic>wegg.estrichen</sic><corr resp="original">weggestrichen</corr></choice>werden. Dazu muss ich mich leider
+<lb/>ausserstande erklären. 1/5 des Berichtes fortnehmen hiesse, die Reise um
+<lb/>1/5 verkürzen. Denn wenn ich auch zugebe, dass hier und da sogenanntes
+<lb/>"schmückendes Beiwerk" enthalten ist, das für den Bericht über die Reise
+<lb/>selbst nicht unbedingt wesentlich ist, so sollte doch andrerseits gerade
+<lb/>in längeren Reiseschilderungen auch die leichte Würze nicht fehlen, die
+<lb/>den Leser hier und da von der Notwendigkeit einer sachlichen Konzentration
+<lb/>entbindet und ihn vielleicht auch einmal abirren oder auch lächeln lässt.
+<lb/>Würde ich also das "schmückende Beiwerk" streichen, so kõnnte das <choice><abbr>m.E</abbr><expan>meines Erachtens</expan></choice> nur
+<lb/>auf Kosten einer gewissen Frische und Unterhaltsamkeit geschehen. Gehe
+<lb/>ich andererseits aber dabei und streiche Abschnitte aus dem Verlauf der
+<lb/>Reise selbst, so beschneide ich damit die <choice><sic>tatsächliche</sic><corr resp="original">tatsächlich</corr></choice>durchgeführte Auf-
+<lb/>gabe und den grossen Ueberblick über dieses im allgemeinen doch so wenig
+<lb/>bekannte Land.</p>
+<p><lb/>Gewiss könnte man hier und da Kleinigkeiten herausnehmen, dieses und
+<lb/>jenes vielleicht auch etwas zusammendrängen, aber belangreich für eine we-
+<lb/>sentliche Kürzung des ganzen Werkes wird das nicht sein.</p>
+<p><lb/>Es scheint, dass sich umfangreiche Reisen in wenig bekannte Länder
+<lb/>nicht in Kürze wiedergeben lassen, denn immer wieder sieht man doch über
+<lb/>solche auch umfangreiche Werke erscheinen. Bei den Büchern des Wenzel-Ver-
+<lb/>lages scheint es mir von vorneherein nicht auf einen Massenabsatz billi-
+<lb/>ger Reiselektüre abgesehen zu sein, sondern auf den Verkauf solider Werke
+<lb/>an einen bestimmten Interessentenkreis. Ob ein wirklicher Interessent
+<lb/>tatsächlich auf einen geringen Mehrpreis allzu sehr achten würde?</p>
+<p><lb/>Darf ich fragen, wie hoch sich schätzungsweise der Verkaufspreis für
+<lb/>den ungekürzten Bericht stellen würde, wie hoch andrerseits nach Ansicht
+<pb facs="#0002" corresp="https://transkribus.eu/lite/de/collection/98169/doc/669124/detail/1"/>
+<lb/>des Verlages der äusserst tragbare Verkaufspreis sein dürfte und welchem
+<lb/>Umfang das entsprechen würde. - Unter "Umfang“ mõchte ich dabei den reinen
+<lb/>Text ohne Titelei, Anmerkungen und Bilder verstehen.</p>
+<p><lb/>Ich bitte um eine recht baldige Stellungnahme und bin, immer noch hof-
+<lb/>fend, dass ich ohne Kürzungen davon komme,mit besten Empfehlungen und</p>
+<p><lb/><closer><salute>Heil Hitler:</salute>
+<lb/>Ihr ergebenster
+<lb/><signed><persName ref="http://d-nb.info/gnd/128547553">Karl Helbig</persName></signed></closer></p>
+            </div>
+        </body>
+    </text>
+</TEI>
