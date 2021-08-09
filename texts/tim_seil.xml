@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Brief vom Vieweg Archiv an Karl Helbig</title>
+        <author>
+          <persName ref="http://d-nb.info/gnd/6146689">
+            <surname>Friedr. Vieweg und Sohn (Verlag)</surname>
+          </persName>
+        </author>
+        <respStmt>
+          <persName> Tim Seil 
+            <surname/>
+            <forename/>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility">Bearbeitung der digitalen Edition.</note>
+            <date type="importDTA">2021-07-10T11:49:27Z</date>
+          </resp>
+        </respStmt>
+        <respStmt>
+          <orgName ref="https://www.bbaw.de"></orgName>
+          <resp>
+            <note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+            <ref target="https://www.bbaw.de"/>
+          </resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt><edition>Vollständige digitalisierte Ausgabe.</edition></editionStmt>
+      <extent>
+        <measure type="images"/>
+        <measure type="tokens"/>
+        <measure type="types"/>
+        <measure type="characters"/>
+      </extent>
+      <publicationStmt>
+        <publisher xml:id="DTACorpusPublisher">
+          <email></email>
+          <orgName role="project"></orgName>
+          <orgName role="hostingInstitution" xml:lang="en"></orgName>
+          <orgName role="hostingInstitution" xml:lang="de"></orgName>
+          <address>
+            <addrLine></addrLine>
+            <country>Germany</country>
+          </address>
+        </publisher>
+        <pubPlace></pubPlace>
+        <date type="publication">2021-07-10T11:49:27Z</date>
+        <availability xml:id="availability-imagesource-1" corresp="#imagesource-1">
+          <licence target="http://creativecommons.org/publicdomain/zero/1.0/">
+            <p>Dieses Werk ist gemeinfrei.</p>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier><idno>UABS V 1 H111 (30) (32)</idno></msIdentifier>
+        </msDesc>
+        <bibl type="M"/>
+        <biblFull>
+          <titleStmt>
+            <title level="m" type="main">Vieweg Archiv</title>
+            <author>
+              <persName ref="http://d-nb.info/gnd/6146689">
+                <surname>Friedr. Vieweg und Sohn (Verlag)</surname>
+              </persName>
+            </author>
+          </titleStmt>
+          <editionStmt>
+            <edition n="1"/>
+          </editionStmt>
+          <publicationStmt>
+            <publisher><name>Vieweg und Sohn</name></publisher>
+            <date type="creation">1940</date>
+          </publicationStmt>
+        </biblFull>
+        <msDesc xml:id="imagesource-1" corresp="#availability-imagesource-1">
+          <msIdentifier>
+            <repository>Universitätsbibliothek Braunschweig</repository>
+          </msIdentifier>
+          <physDesc>
+            <typeDesc>
+              <p>Handschrift</p>
+            </typeDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Zeilengetreue Transkription mit Transkribus</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="deu">(Früh-)Neuhochdeutsch</language>
+      </langUsage>
+      <textClass>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <pb facs="#f0001"/>
+    <body>
+      <div>
+        <p>
+          <pb facs="#f0001" corresp="https://transkribus.eu/lite/collection/98169/doc/669125/detail/1?view=image"/>
+          <lb/>Herrn
+          <lb/>Dr. <persName ref="http://d-nb.info/gnd/128547553">Karl Helbig</persName> 
+          <lb/><placeName ref="https://www.geonames.org/2948066/blankenese.html">Blankenese bei Hamburg</placeName> 
+          <lb/>Charlottenstr. 11
+          <date when="20.8.1940">20. August 1940</date>
+          <lb/>Z/N. 344</p>
+        <opener>Sehr geehrter Herr Dr. <persName ref="http://d-nb.info/gnd/128547553">Helbig</persName>!</opener>
+        <p>
+          <lb/>Ihre einführenden Zeilen vor dem Text haben bislang noch keine
+          <lb/>Überschrift. Sollen wir darüber setzen „Vorwort“ oder „Einleitung"?</p>
+        <p>
+          <lb/>Dürfen wir Sie bei der Gelegenheit bitten, uns für den Umschlag
+          <lb/>einen sogenannten Klappentext zu schreiben? Sie wissen ja, dass
+          <lb/>sich daraus nicht nur der Buchhändler, sondern auch das bücher-
+          <lb/>liebende Publikum orientieren soll. Es müsste also schon etwas
+          <lb/>ganz besonders Interessantes gesagt werden, das nicht anreisser-
+          <lb/>isch wirken darf, aber den Interessenten doch so weit fesseln
+          <lb/>soll, dass er Neigung zum Kauf erhält. Wir wären Ihnen dankbar
+          <lb/>wenn Sie uns diesen Text schreiben wollten.</p>
+        <closer>
+          <lb/><salute>Mit freundlichen Grüssen
+            <lb/>Heil Hitler!</salute>
+          <lb/><signed><placeName ref="http://d-nb.info/gnd/6146689-X">Friedr. Vieweg &amp; Sohn</placeName></signed>
+        </closer>
+        <p>
+          <pb facs="#f0002" corresp="https://transkribus.eu/lite/collection/98169/doc/669125/detail/2?view=image"/>
+          <lb/>Herrn
+          <lb/>Dr. <persName ref="http://d-nb.info/gnd/128547553">Karl Helbig</persName>  
+          <lb/><placeName ref="https://www.geonames.org/2948066/blankenese.html">Blankenese bei Hamburg</placeName> 
+          <lb/>Charlottenstr. 11
+          <date when="30.8.1940">30. August 1940</date>
+          <lb/>Z/N. 377</p>
+        <opener>Sehr geehrter Herr Dr. <persName ref="http://d-nb.info/gnd/128547553">Helbig</persName>!</opener>
+        <lb/>Wir danken Ihnen noch einmal verbindlich für Ihren Besuch.
+        <lb/>Den Klappentext haben wir mit den kleinen Änderungen, die Sie vor-
+        <lb/>genommen haben, in Satz genommen. Wir haben nur im Anfang das Wort
+        <lb/>Wissenschaftler gestrichen. Es ist nicht zweckmässig, das Buch
+        <lb/>gleich als wissenschaftlich abzustempeln, damit wir den Abnehmer-
+        <lb/>kreis nicht beschränken. Wir haben es dabei gelassen, wie wir be‐
+        <lb/>sprachen: „ein junger Deutscher“. In den folgenden Zeilen kommt es
+        <lb/>ja sowieso zum Ausdruck, dass es sich um eine Forscherfahrt handelt
+        <p>
+          <lb/>Wir wollen sehen, dass wir den Text für die Anzeigenseite unterbrin-
+          <lb/>gen können. Sollte es zu viel werden, so müssen wir von den Besprechun-
+          <lb/>gen über "Tuan Gila" eine fortlassen.</p>
+        <closer>
+          <lb/><salute>Mit besten Grüssen
+            <lb/>Ihre ergebenen</salute>
+          <lb/><signed><placeName ref="http://d-nb.info/gnd/6146689-X">Friedr. Vieweg &amp; Sohn</placeName></signed>
+        </closer>
+      </div>
+    </body>
+  </text>
+</TEI>
