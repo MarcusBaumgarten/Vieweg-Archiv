@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+        <fileDesc>
+           <titleStmt>
+              <title type="main">Brief von Karl Helbig an den Verlag Gustav Wenzel &amp; Sohn vom 08.09.1944</title>
+              <author>
+                 <persName ref="http://d-nb.info/gnd/128547553">
+                    <surname>Helbig</surname>
+                    <forename>Karl</forename>
+                 </persName>
+              </author>
+              <author>
+                 <persName>
+                    <surname>Lehmann</surname>
+                    <forename>Anne</forename>
+                 </persName>
+              </author>
+              <respStmt xml:id="textsource-1" corresp="#availability-textsource-1">
+                 <orgName>Universitätsarchiv der Universitätsbibliothek Braunschweig</orgName>
+                 <resp>
+                    <note type="remarkResponsibility">Bereitstellung der Texttranskription.</note>
+                    <note type="remarkRevisionDTA">Bitte beachten Sie, dass die aktuelle Transkription (und Textauszeichnung) mittlerweile nicht mehr dem Stand zum Zeitpunkt der Übernahme des Werkes in das DTA entsprechen muss.</note>
+                    <date type="importDTA">2022-07-18T08:55:52Z</date>
+                 </resp>
+              </respStmt>
+              <respStmt>
+                 <persName>
+                    <surname>Lehmann</surname>
+                    <forename>Anne</forename>
+                 </persName>
+                 <resp>
+                    <note type="remarkResponsibility">Bearbeitung der digitalen Edition.</note>
+                    <date type="importDTA">2022-07-18T08:55:52Z</date>
+                 </resp>
+              </respStmt>
+              <respStmt>
+                 <orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+                 <resp>
+                    <note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+                    <ref target="https://www.bbaw.de"/>
+                 </resp>
+              </respStmt>
+           </titleStmt>
+           <editionStmt><edition>Vollständige digitalisierte Ausgabe und XML/TEI-P5 editierte Edition</edition></editionStmt>
+           <extent>
+              <measure type="images"/>
+              <measure type="tokens"/>
+              <measure type="types"/>
+              <measure type="characters"/>
+           </extent>
+           <publicationStmt>
+              <publisher>
+              <orgName role="project">Universitätsarchiv der Universitätsbibliothek Braunschweig</orgName>
+              <address>
+                 <addrLine>Universitätsplatz 1, 38106 Braunschweig</addrLine>
+                 <country>Germany</country>
+              </address>
+              </publisher>
+              <pubPlace>Braunschweig</pubPlace>
+              <date type="publication">2022-07-18T08:55:52Z</date>
+              <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+                 <licence target="http://creativecommons.org/licenses/by-sa/2.0/de/">
+                    <p>Distributed under the Creative Commons Attribution-ShareAlike 2.0 Generic (German) License.</p>
+                 </licence>
+              </availability>
+           </publicationStmt>
+           <sourceDesc>
+              <bibl type="M"/>
+              <biblFull>
+                 <titleStmt>
+                    <title level="m" type="main">Brief von Karl Helbig an den Verlag Gustav Wenzel &amp; Sohn vom 08.09.1944</title>
+                    <author>
+                       <persName ref="http://d-nb.info/gnd/128547553">
+                          <surname>Helbig</surname>
+                          <forename>Karl</forename>
+                       </persName>
+                    </author>
+                    <author>
+                       <persName>
+                          <surname>Lehmann</surname>
+                          <forename>Anne</forename>
+                       </persName>
+                    </author>
+                 </titleStmt>
+                 <editionStmt>
+                    <edition n="1"/>
+                 </editionStmt>
+                 <publicationStmt>
+                    <publisher/>
+                    <pubPlace>Hamburg</pubPlace>
+                    <date type="publication">1944</date>
+                 </publicationStmt>
+              </biblFull>
+           </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+           <editorialDecl>
+              <p>
+                 Bogensignaturen: keine Angabe;
+                 Druckfehler: keine Angabe;
+                 fremdsprachliches Material: nicht gekennzeichnet;
+                 Geminations-/Abkürzungsstriche: keine Angabe;
+                 Hervorhebungen (Antiqua, Sperrschrift, Kursive etc.): keine Angabe;
+                 I/J in Fraktur: keine Angabe;
+                 i/j in Fraktur: keine Angabe;
+                 Kolumnentitel: keine Angabe;
+                 Kustoden: keine Angabe;
+                 langes s (ſ): keine Angabe;
+                 Normalisierungen: dokumentiert;
+                 rundes r (&amp;#xa75b;): keine Angabe;
+                 Seitenumbrüche markiert: ja;
+                 Silbentrennung: keine Angabe;
+                 u/v bzw. U/V: keine Angabe;
+                 Vokale mit übergest. e: keine Angabe;
+                 Vollständigkeit: vollständig erfasst;
+                 Zeichensetzung: keine Angabe;
+                 Zeilenumbrüche markiert: ja;
+              </p>
+           </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+           <textClass>
+           </textClass>
+        </profileDesc>
+     </teiHeader>
+  <text>
+      <body>
+      <div xml:id="briefnummer" n="151">
+      
+      <p>Abl. 382
+      <lb/>11. SEP. 1944
+      <lb/>Erl. 17.9. geschr. Ws. I V.</p>
+      
+      <p><persName ref="https://d-nb.info/gnd/128547553">Dr. habil.Karl Helbig</persName>
+      <lb/><placeName ref="https://www.geonames.org/2911296/altona.html">Hamburg-Altona</placeName>, Tresckowallee 22</p>
+     
+      <p><date>8.9.44</date></p>
+
+      <p>An
+      <lb/>Verlag Gustav Wenzel &amp; Sohn
+      <lb/><placeName ref="https://www.geonames.org/2945024/braunschweig.html">Braunschweig</placeName></p>
+      </div>     
+      <div>
+      <opener>Sehr geehrte Herren,</opener>
+      <p>es sind einige Tage darüber hingegangen, ehe ich zur Absendung des Verlags-
+      <lb/>vertrags-Entwurfes komme. Ich übersende ihn nun mit meiner Unterschrift
+      <lb/>versehen und bitte um Ueberlassung eines zweiten Exemplares für mich.
+      <lb/>Das Manuskript habe ich inzwischen abgeschlossen und bin sehr froh darüber.
+      <lb/>Nun muss ich es noch mit Maschine schreiben. Das dürfte sicherlich zwei Wo-
+      <lb/>chen in Anspruch nehmen. Später können wir dann wegen der Bildauswahl Nähe-
+      <lb/>res vereinbaren.</p> 
+      <p>Hoffentlich fand mein Vortrag in <placeName ref="https://www.geonames.org/2945024/braunschweig.html">Braunschweig</placeName> einigermassen guten Anklang.
+      <lb/>Die Presse hat ja sicher nicht referiert, sonst hätten sie es mir wohl zuge-
+      <lb/>schickt. Ich danke jedenfalls nochmals für das Zustandekommen des Vortrages
+      <lb/>und vor allem auch für die gute Aufnahme seitens des Verlages.</p>
+      <p>Die kleine Büchersendung, die ich erbat, und die Herr Blunck liebenswürdiger-
+      <lb/>weise noch durch einige schöngeistige Werke ergänzen wollte, darf ich sicher
+         <lb/>bald erwarten, an meine Anschrift in <placeName ref="https://www.geonames.org/2828702/steinbeck.html">Steinbeck bei Buchholz, Kr. Harburg.</placeName></p>
+      <closer>
+      <lb/><salute>Mit besten Empfehlungen und Heil Hitler:</salute>
+      <lb/><signed><persName ref="https://d-nb.info/gnd/128547553">Karl Helbig</persName></signed>   
+            </closer>
+         </div>
+      </body>
+  </text>
+</TEI>

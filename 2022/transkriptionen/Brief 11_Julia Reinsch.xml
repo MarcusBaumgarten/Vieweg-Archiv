@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Brief von Friedrich Vieweg und Sohn an Karl Helbig vom 02.10.1945</title>
+            <author>
+               <persName ref="http://d-nb.info/gnd/1247335313">
+                  <surname>Vieweg</surname>
+                  <forename>Friedrich</forename>
+               </persName>
+            </author>
+            <respStmt xml:id="textsource-1" corresp="#availability-textsource-1">
+               <persName>
+                  <surname>Braunschweig</surname>
+                  <forename>Universitätsarchiv der Universitätsbibliothek</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Bereitstellung der Texttranskription.</note>
+                  <note type="remarkRevisionDTA">Bitte beachten Sie, dass die aktuelle Transkription (und Textauszeichnung) mittlerweile nicht mehr dem Stand zum Zeitpunkt der Übernahme des Werkes in das DTA entsprechen muss.</note>
+                  <date type="importDTA">2022-07-14T19:10:05Z</date>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName>
+                  <surname>Reinsch</surname>
+                  <forename>Julia</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Bearbeitung der digitalen Edition.</note>
+                  <date type="importDTA">2022-07-14T19:10:05Z</date>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+                  <ref target="https://www.bbaw.de"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt><edition>Vollständige digitalisierte Ausgabe und in XML/TEI-P5 editierte Edition</edition></editionStmt>
+         <extent>
+            <measure type="images"/>
+            <measure type="tokens"/>
+            <measure type="types"/>
+            <measure type="characters"/>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName role="projekt">Universitätsbibliothek der Technischen Universität Braunschweig </orgName>
+               <address>
+                  <addrLine>Universitätsplatz 1, 38106 Braunschweig</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Braunschweig</pubPlace>
+            <date type="publication">2022-07-14T19:10:05Z</date>
+            <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+               <licence target="http://creativecommons.org/licenses/by-sa/2.0/de/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 2.0 Generic (German) License.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="M"/>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">Brief von Friedrich Vieweg und Sohn an Karl Helbig vom 02.10.1945</title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/1247335313">
+                        <surname>Vieweg</surname>
+                        <forename>Friedrich</forename>
+                     </persName>
+                  </author>
+                  <editor>
+                     <persName>
+                        <surname>Reinsch</surname>
+                        <forename>Julia</forename>
+                     </persName>
+                  </editor>
+               </titleStmt>
+               <editionStmt>
+                  <edition n="1"/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <pubPlace>Braunschweig</pubPlace>
+                  <date type="publication">1945</date>
+               </publicationStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               Bogensignaturen: keine Angabe;
+               Druckfehler: keine Angabe;
+               fremdsprachliches Material: nicht gekennzeichnet;
+               Geminations-/Abkürzungsstriche: keine Angabe;
+               Hervorhebungen (Antiqua, Sperrschrift, Kursive etc.): keine Angabe;
+               i/j in Fraktur: keine Angabe;
+               I/J in Fraktur: keine Angabe;
+               Kolumnentitel: keine Angabe;
+               Kustoden: keine Angabe;
+               langes s (ſ): keine Angabe;
+               Normalisierungen: dokumentiert;
+               rundes r (&amp;#xa75b;): keine Angabe;
+               Seitenumbrüche markiert: ja;
+               Silbentrennung: keine Angabe;
+               u/v bzw. U/V: Lautwert transkribiert;
+               Vokale mit übergest. e: keine Angabe;
+               Vollständigkeit: vollständig erfasst;
+               Zeichensetzung: keine Angabe;
+               Zeilenumbrüche markiert: ja;
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="briefnummer" n="11">
+            <pb n="1"/>
+            
+            <opener> Herrn <lb/><persName ref="https://d-nb.info/gnd/128547553">Dr. habil. Karl Helbig</persName> <lb/>(24) <placeName ref="https://www.geonames.org/2911296/altona.html">Hamburg-Altona</placeName><lb/>
+               Tresckowallee 22 
+           <date when="1945-10-02"></date><lb/> Zi/V. 382
+              
+               <salute>Sehr geehrter Herr <persName ref="https://d-nb.info/gnd/128547553">Dr. Helbig</persName></salute>! <lb/>Ihre Karte vom 12.9. und Ihren
+               Brief vom 19.9.45<lb/>erhielten wir dankend.</opener>
+            <p>Wir verstehen die Gründe, die Sie abhielten, <lb/>nach <placeName ref="https://www.geonames.org/2945024/braunschweig.html">Braunschweig</placeName>
+               zu kommen, wenn wir es auch <lb/>sehr bedauern, daß wir mit Ihnen keine
+               persön- <lb/>liche Rücksprache nehmen können. Hoffentlich <lb/>läßt
+               sich Ihr Besuch in absehbarer Zeit doch <lb/>noch einmal verwirklichen.</p>
+            <p>Mit der Herausgabe Ihres Buches <name type="https://d-nb.info/451935853"> "Paradies in <lb/>Licht und
+               Schatten"</name> müssen wir noch warten, da <lb/>die Verlage immer noch keine Lizenz
+               erhalten <lb/>haben. Bis zur Erteilung müssen wir auch die <lb/>
+               Lieferung schöngeistiger Werke zurückstellen, <lb/>so gern wir Ihrem Wunsch
+               nachgekommen wären. <lb/>b.w.</p>
+            <pb/>
+            <p>Die neue Adresse der Buchhandlung <persName ref="https://d-nb.info/gnd/107340871X" >Johannes <lb/>Burmeister</persName>,
+               <placeName ref="https://www.geonames.org/3083829/szczecin.html">Stettin</placeName>, haben wir uns vorgemerkt. <lb/>Sie wird eine Zuteilung von uns
+               erhalten, <lb/>sobald die Lizenz erteilt ist.</p>
+            <p>Die Honorarüberweisung von RM 2000, -- als <lb/>Vorauszahlung auf
+               Ihr Buch "Paradies in <lb/>Licht und Schatten" nehmen wir in den nächsten
+               Tagen <lb/>vor und zwar auf Ihr Konto Sparbuch 4991 <lb/> der Deutschen Bank
+               Filiale <placeName ref="https://www.geonames.org/2904789/hildesheim.html">Hildesheim</placeName>.</p>
+            <closer>
+               <salute>Mit freundlichen Grüßen</salute>
+               <lb/>Ihre ergebenen <lb/><signed>Friedr. Vieweg &amp; Sohn</signed></closer>
+            </div>
+        
+      </body>
+   </text>
+</TEI>

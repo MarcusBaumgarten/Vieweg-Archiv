@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Brief des Vieweg-Verlages an Dr.-habil. Karl Helbig vom 22.10.1964</title>
+            <respStmt xml:id="textsource-1" corresp="#availability-textsource-1">
+               <orgName>Universitätsarchiv der Universitätsbibliothek TU Braunschweig</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Bereitstellung der Texttranskription.</note>
+                  <note type="remarkRevisionDTA">Bitte beachten Sie, dass die aktuelle Transkription (und Textauszeichnung) mittlerweile nicht mehr dem Stand zum Zeitpunkt der Übernahme des Werkes in das DTA entsprechen muss.</note>
+                  <date type="importDTA">2022-07-11T15:46:26Z</date>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName>
+                  <surname>Rose</surname>
+                  <forename>Enrico</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Bearbeitung der digitalen Edition.</note>
+                  <date type="importDTA">2022-07-11T15:46:26Z</date>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+                  <ref target="https://www.bbaw.de"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt><edition>Vollständige digitalisierte Ausgabe und XML/TEI-P5 editierte Edition</edition></editionStmt>
+         <extent>
+            <measure type="images"/>
+            <measure type="tokens"/>
+            <measure type="types"/>
+            <measure type="characters"/>
+         </extent>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <email>dta@bbaw.de</email>
+               <orgName role="project">Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-07-11T15:46:26Z</date>
+            <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+               <licence target="http://creativecommons.org/licenses/by-sa/2.0/de/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 2.0 Generic (German) License.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note type="remarkDocument">Das Original wurde mit Schreibmaschine in A5-Format zweiseitig abgetippt. 
+               Das Original enthielt eine handschriftliche Korrektur eines Tippfehlers.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="M"/>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">Brief des Vieweg-Verlages an Dr.-habil. Karl Helbig vom 22.10.1964</title>
+               </titleStmt>
+               <editionStmt>
+                  <edition n="1">Erste, vollständige Digitalisierung</edition>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher><name>Vieweg-Verlag Braunschweig</name></publisher>
+                  <pubPlace>Braunschweig</pubPlace>
+                  <date type="publication">1964</date>
+               </publicationStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               Bogensignaturen: keine Angabe;
+               Druckfehler: stillschweigend korrigiert;
+               fremdsprachliches Material: keine Angabe;
+               Geminations-/Abkürzungsstriche: wie Vorlage;
+               Hervorhebungen (Antiqua, Sperrschrift, Kursive etc.): keine Angabe;
+               I/J in Fraktur: keine Angabe;
+               i/j in Fraktur: keine Angabe;
+               Kolumnentitel: keine Angabe;
+               Kustoden: keine Angabe;
+               langes s (ſ): keine Angabe;
+               Normalisierungen: keine Angabe;
+               rundes r (&amp;#xa75b;): keine Angabe;
+               Seitenumbrüche markiert: ja;
+               Silbentrennung: wie Vorlage;
+               u/v bzw. U/V: keine Angabe;
+               Vokale mit übergest. e: wie Vorlage;
+               Vollständigkeit: vollständig erfasst;
+               Zeichensetzung: wie Vorlage;
+               Zeilenumbrüche markiert: ja;
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <div xml:id="Siebzehn">
+         <pb n="1"/><opener>
+            <lb/>Herrn
+            <lb/>Dr-habil. <persName ref="https://d-nb.info/gnd/128547553">Karl Helbig</persName>
+            <lb/>(24) <placeName ref="https://www.geonames.org/2911296/altona.html">Hamburg-Altona</placeName> <note place="right" hand="unbekannte Unterschrift"/>
+            <lb/>Tresckowallee 22/III        <date>22. Oktober 1964</date>
+            <lb/>Gr./W. 382
+       
+            <salute>Sehr geehrter Herr Dr. <persName ref="https://d-nb.info/gnd/128547553">Helbig</persName>!</salute></opener>
+         <p><lb/>Verbindlichen Dank für Ihre freundliche Karte
+            <lb/>vom 18.10.
+         </p><p>
+            <lb/>Leider sind Ihre Befürchtungen zutreffend:
+            <lb/>Die Verlagslizenz ist immer noch nicht erteilt.
+            <lb/>Monatelang warten wir nun schon; unsere Geduld
+            <lb/>wird wirklich auf eine harte Probe gestellt.
+            <lb/>Aber wir denken, daß unsere Zulassung in aller-
+            <lb/>nächster Zeit ausgesprochen wird, da wir einem
+            <lb/>Wunsch der <orgName>Militärregierung</orgName> folgend eine perso-
+            <lb/>nelle Änderung im Verlag vornahmen, womit alle
+            <lb/>Hemmnisse aus dem Wege geräumt sein dürften.
+         </p><p>
+            <lb/>Wir glaubten, in dieser Zeit des Wartens von
+            <lb/>der Erteilung eines Zwischenbescheides an Sie
+            <lb/>absehen zu können, da wir immer gehofft hatten,
+            <lb/>Ihnen den Erhalt der Lizenz selbst bald mit-
+            <lb/>teilen zu können. Seien die also nicht böse,
+            <lb/>daß Sie eine ganze Weile von uns nichts hörten.
+         </p><p>
+            <lb/>Wir haben die Absicht, auch unseren schöngei-
+            <lb/>stigen Verlag wieder zu pflegen und weiter aus-
+         </p><pb n="2"/><p>
+            <lb/>zubauen. Weiweit sich indes alle unsere Planun-
+            <lb/>gen verwirklichen lassen werden, können wir
+            <lb/>erst genauer übersehen, wenn die Zulassung
+            <lb/>wirklich vorliegt. Selbstverständlich werden
+            <lb/>wir Sie dann sofort weiter orientieren.
+         </p><p>
+            <lb/>In den nächsten Wochen können wir Ihnen auch
+            <lb/>einige Romane des <orgName ref="https://d-nb.info/871464039">Vieweg-Verlages</orgName> übersenden,
+            <lb/>die gerade in diesen Tagen zum Vertrieb frei-
+            <lb/>gegeben wurden. Z. Zt. sind die Bücher noch beim
+            <lb/>Buchbinder.
+         </p><p>
+            <lb/>Dürfen wir Sie aber bitten, diese kleine Zu-
+            <lb/>teilung unter "geheim" abzustellen; da unsere
+            <lb/>Bestände leider nur sehr gering sind, könnten
+            <lb/>wir gegebenenfalls weiter auftretende Wünsche
+            <lb/>doch nicht befriedigen.
+         </p><closer>
+            <lb/><salute>Mit freundlichen Grüßen</salute>
+            <lb/>Ihre ergebenen
+            <lb/><signed><orgName ref="https://d-nb.info/871464039">Friedr. Vieweg &amp; Sohn</orgName>
+            <lb/>(Unterschrift)</signed></closer></div>
+      </body>
+  </text>
+</TEI>

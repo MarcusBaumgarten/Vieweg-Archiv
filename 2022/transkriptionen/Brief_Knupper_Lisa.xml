@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Brief von Karl Helbig an Vieweg Verlag vom 18.10.1946</title>
+            <author>
+               <persName ref="http://d-nb.info/gnd/128547553">
+                  <surname>Helbig</surname>
+                  <forename>Karl</forename>
+               </persName>
+            </author>
+            <respStmt xml:id="textsource-1" corresp="#availability-textsource-1">
+               <orgName>Universitätsarchiv der Universitätsbibliothek Braunschweig</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Bereitstellung der Texttranskription.</note>
+                  <note type="remarkRevisionDTA">Bitte beachten Sie, dass die aktuelle Transkription (und Textauszeichnung) mittlerweile nicht mehr dem Stand zum Zeitpunkt der Übernahme des Werkes in das DTA entsprechen muss.</note>
+                  <date type="importDTA">2022-07-18T15:16:17Z</date>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName>
+                  <surname>Knupper</surname>
+                  <forename>Lisa</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Bearbeitung der digitalen Edition.</note>
+                  <date type="importDTA">2022-07-18T15:16:17Z</date>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+                  <ref target="https://www.bbaw.de"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt><edition>Vollständige digitalisierte Ausgabe und XML/TEI-P5 editierte Edition</edition></editionStmt>
+         <extent>
+            <measure type="images"/>
+            <measure type="tokens"/>
+            <measure type="types"/>
+            <measure type="characters"/>
+         </extent>
+         <publicationStmt>
+            <publisher>
+            <orgName role="project">Universitätsbinliothek der Technischen Universität Braunschweig</orgName>
+            <address>
+               <addrLine>Universitätzplatz 1, 38106 Braunschweig</addrLine>
+               <country>Germany</country>
+            </address>
+            </publisher>
+            <pubPlace>Braunschweig</pubPlace>
+            <date type="publication">2022-07-18T15:16:17Z</date>
+            <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+               <licence target="http://creativecommons.org/licenses/by-sa/2.0/de/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 2.0 Generic (German) License.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="M"/>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">Brief von Karl Helbig an Vieweg Verlag vom 18.10.1946</title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/128547553">
+                        <surname>Helbig</surname>
+                        <forename>Karl</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition n="1"/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <pubPlace>Hamburg</pubPlace>
+                  <date type="publication">1946</date>
+               </publicationStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               Bogensignaturen: keine Angabe;
+               Druckfehler: keine Angabe;
+               fremdsprachliches Material: nicht gekennzeichnet;
+               Geminations-/Abkürzungsstriche: keine Angabe;
+               Hervorhebungen (Antiqua, Sperrschrift, Kursive etc.): keine Angabe;
+               I/J in Fraktur: keine Angabe;
+               i/j in Fraktur: keine Angabe;
+               Kolumnentitel: keine Angabe;
+               Kustoden: keine Angabe;
+               langes s (ſ): keine Angabe;
+               Normalisierungen: dokumentiert;
+               rundes r (&amp;#xa75b;): keine Angabe;
+               Seitenumbrüche markiert: ja;
+               Silbentrennung: keine Angabe;
+               u/v bzw. U/V: keine Angabe;
+               Vokale mit übergest. e: keine Angabe;
+               Vollständigkeit: vollständig erfasst;
+               Zeichensetzung: keine Angabe;
+               Zeilenumbrüche markiert: ja;
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <div xml:id="Sechzehn">
+               <opener> 
+                  <dateline>18.10.46</dateline>
+               <lb/>Eingeg
+               <lb/>22. 0KT 1946 ..
+               <lb/>Erledigt-22.10.46
+                 <salute>Sehr geehrte Herren,</salute>
+               </opener>
+               <p><lb/>oft mache ich mir Gedanken  darüber, ob Sie wohl inzwischen
+               <lb/>Lizenz erhalten haben. Fast kann ich nicht glauben, dass
+                  <lb/>sie immer noch nicht erteilt sein soll, da doch <persName>Herr Zimmermann</persName>
+               <lb/> schon bei meinem Besuch im letzten Winter der
+               <lb/>Überzeugung war, dass sie unmittelbar bevorstehe. Viel-
+               <lb/>leicht haben Sie über viel dringlicheren Arbeiten doch
+               <lb/>nur vergessen, mich zu oriamtieren und ich bitte höf-
+               <lb/>lichst, das doch nunmehr nachzuholen. Im Laufe der verflos-
+               <lb/>senen Monate sind ja eine ganze Reihe von Lizenzen auch
+               <lb/>in der britischen Zone erteilt worden, und es will mir
+               <lb/>nicht in den Kopf, aus welchen Gründen bei Ihrem Verlag
+               <lb/>immer noch gezögert wird. Bitte, befreien Sie mich von
+               <lb/>meiner Ungewissheit und Sorge, und bitte berücksichtigen
+               <lb/>Sie dann nach Möglichkeit - im Hinblick auf das näher-
+               <lb/>rückende Weihnachtsfest - meinen mehrfach zum Ausdruck
+               <lb/>gebrachten Wunsch um Übersendung einer Auswahl Ihrer
+               <lb/>unterhaltenden Verlagswerke.</p>
+                  <closer>
+                     <salute>Mit besten Grüssen bin ich
+                <lb/>Ihr ergebenster:</salute>
+               <lb/><signed>Karl Helbig</signed>
+            </closer>
+            </div>
+         <div>
+            <p>
+               <pb/>
+               <lb/>Absender:
+               <lb/><persName ref="https://d-nb.info/gnd/128547553">Dr. habil. Karl Helbig</persName>
+                 
+       
+               <lb/><placeName ref="https://www.geonames.org/2911296/altona.html">HAMBURG_- ALTONA</placeName>
+               <lb/>Tresckowallee 22 "
+               
+               <lb/>Postscheck Hamburg 480 72
+               
+               
+               <lb/>Wohnort, auch Zustell- oder Leitpostamt
+               
+               <lb/>Straße, Hausnummer Gebäudeteil, Stockwerk oder
+               <lb/>Postschließfachnummer
+               <lb/>bei Untermieter auch Name des Vermieters
+               
+               <lb/>E/0281
+              <lb/><hi>311</hi></p>
+           <p> Postkarte
+               <lb/>VOR DEM UMZUG
+               <lb/>VERORDNUNG Nr. 16
+               <lb/>LESEN!
+               <lb/>POSTAGE
+              <lb/>PREPAID
+             <lb/>Gebühr bezahlt
+              
+              <lb/>POSTAGE
+              <lb/>REPAID
+              <lb/>Gebühr bezahlt 
+              
+              <lb/>HAMBURG 
+              <lb/>An den
+              <lb/>Verlag Friedrich Vieweg
+              <lb/>und Sohn
+              <lb/>(20) Braunschweig
+              <lb/>Burgplatz 1
+              <lb/>Straße, Hausnummer, Gebäudeteil, Stockwerk oder Post
+              <lb/>schließfachnummer; bei Untermietern auch Name des Vermieters
+            </p>
+         </div>
+      </body>
+  </text>
+</TEI>

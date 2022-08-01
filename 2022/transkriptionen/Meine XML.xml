@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Brief von Friedrich Vieweg an Karl Helbig vom 01. 01. 1945</title>
+        <author>
+          <persName ref="http://d-nb.info/gnd/1247335313">
+            <surname>Vieweg</surname>
+            <forename>Friedrich</forename>
+          </persName>
+        </author>
+        <author>
+          <persName>
+            <surname>Kerr</surname>
+            <forename>Katharina</forename>
+          </persName>
+        </author>
+        <respStmt xml:id="textsource-1" corresp="#availability-textsource-1">
+          <persName>
+            <surname>Braunschweig</surname>
+            <forename>Universitätsarchiv der Universitätsbibliothek</forename>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility">Bereitstellung der Texttranskription.</note>
+            <note type="remarkRevisionDTA">Bitte beachten Sie, dass die aktuelle Transkription (und Textauszeichnung) mittlerweile nicht mehr dem Stand zum Zeitpunkt der Übernahme des Werkes in das DTA entsprechen muss.</note>
+            <date type="importDTA">2022-07-11T15:13:56Z</date>
+          </resp>
+        </respStmt>
+        <respStmt>
+          <orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+          <resp>
+            <note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+            <ref target="https://www.bbaw.de"/>
+          </resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt><edition>Vollständige digitalisierte Ausgabe und XML/TEI-P5 ed</edition></editionStmt>
+      <extent>
+        <measure type="images"/>
+        <measure type="tokens"/>
+        <measure type="types"/>
+        <measure type="characters"/>
+      </extent>
+      <publicationStmt>
+        <publisher>
+          <orgName role="project">Universitätsbibliothek der Technischen Universität Braunschweig </orgName>
+          <address>
+            <addrLine>Universitätsplatz 1, 38106 Braunschweig</addrLine>
+            <country>Germany</country>
+          </address>
+        </publisher>
+        <pubPlace>Braunschweig</pubPlace>
+        <date type="publication">2022-07-11T15:13:56Z</date>
+        <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+          <licence target="http://creativecommons.org/licenses/by-sa/2.0/de/">
+            <p>Distributed under the Creative Commons Attribution-ShareAlike 2.0 Generic (German) License.</p>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="M"/>
+        <biblFull>
+          <titleStmt>
+            <title level="m" type="main">Brief von Friedrich Vieweg an Karl Helbig vom 01. 01. 1945</title>
+            <author>
+              <persName ref="http://d-nb.info/gnd/1247335313">
+                <surname>Vieweg</surname>
+                <forename>Friedrich</forename>
+              </persName>
+            </author>
+            <author>
+              <persName>
+                <surname>Kerr</surname>
+                <forename>Katharina</forename>
+              </persName>
+            </author>
+          </titleStmt>
+          <editionStmt>
+            <edition n="1"/>
+          </editionStmt>
+          <publicationStmt>
+            <publisher/>
+            <pubPlace>Braunschweig</pubPlace>
+            <date type="publication">1945</date>
+          </publicationStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>
+          Bogensignaturen: keine Angabe;
+          Druckfehler: keine Angabe;
+          fremdsprachliches Material: nicht gekennzeichnet;
+          Geminations-/Abkürzungsstriche: keine Angabe;
+          Hervorhebungen (Antiqua, Sperrschrift, Kursive etc.): keine Angabe;
+          i/j in Fraktur: keine Angabe;
+          I/J in Fraktur: keine Angabe;
+          Kolumnentitel: keine Angabe;
+          Kustoden: keine Angabe;
+          langes s (ſ): keine Angabe;
+          Normalisierungen: dokumentiert;
+          rundes r (&amp;#xa75b;): keine Angabe;
+          Seitenumbrüche markiert: ja;
+          Silbentrennung: keine Angabe;
+          u/v bzw. U/V: keine Angabe;
+          Vokale mit übergest. e: keine Angabe;
+          Vollständigkeit: vollständig erfasst;
+          Zeichensetzung: keine Angabe;
+          Zeilenumbrüche markiert: ja;
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div xml:id="briefnummer" n="163,164">
+            <pb n="1"/>
+            <opener><dateline> 1. Januar 1945.</dateline>
+              <lb></lb> VS./M.
+               <salute>Sehr geehrter Herr Dr. 
+                 <persName ref="https://de.wikipedia.org/wiki/Karl_Helbig_(Forschungsreisender)">
+                  Helbig</persName>!</salute>
+               </opener>
+              <p>Die Beantwortung Ihres freundlichen Schreibens vom 6.
+              </p>
+            <p>
+              <lb></lb>Dezember hat sich durch meine Einberufung zu einem Kompagnie-
+              <lb></lb>führer-Lehrgang des Volkssturms und die sich daran anschliessen-
+              <lb></lb>den Feiertage verzögert. Ich hoffe, dass Sie gut in das neue
+              <lb></lb>Jahr hineingekommen sind, und wünsche Ihnen weiterhin beste
+              <lb></lb>Gesundheit und Erfolg in der Hoffnung, dass wir uns recht bald
+              <lb></lb>alle wieder friedensmässigen Aufgaben widmen können.
+              </p>
+              <p>Durch die erhebliche Beschädigung unseres Geschäfts-
+              <lb></lb>hauses, durch die wir gezwungen waren, uns mit Notquartieren
+                <lb></lb>zu behelfen, ist unsere Anfrage bei Herrn Dr. <persName ref="https://www.jstor.org/stable/25841918?seq=16">
+                  Nevermann</persName>
+                bisher
+              <lb></lb>unterblieben. Ich habe ihm aber heute geschrieben und bei ihm
+              <lb></lb>angefragt, ob er die Durchsicht Ihres Manuskriptes vornehmen
+              <lb></lb>woll und ihn gebeten, sich in diesem Falle mit Ihnen unmittelbar
+              <lb></lb>ins Benehmen zu setzen.
+              </p>
+              <p>Dass unsere gesamte Verlagsarbeit durch die Ereignisse
+              <lb></lb>in der seit dem Angriff verflossenen Zeit fast völlig zum Still-
+              <lb></lb>stand kam, wird Sie nicht verwundern. Wir kommen aber jetzt so
+              <lb></lb>langsam wieder zur Ruhe, vorausgesetzt, dass man sie uns lässt,
+              <lb></lb>um uns auch diesen Arbeiten wieder im vollen Umfange zu widmen.
+              <lb></lb>Dabei wird es dann unser eifrigstes Bestreben sein, die von
+              <lb></lb>uns vorbereiteten Verlagsplanungen bei der papierbewirtschaf-
+              <lb></lb>tenden Stelle zum Zuge zu bringen. Dass dabei Ihr neues Werk
+              <lb></lb>an orster Stelle steht, bedarf keiner Frage. Auch für Ihr
+              <lb></lb>Borneo-Buch“ hatten wir seinerzeit die Genehmigung für eine
+              <lb></lb>erneute Papierbewilligung nachgesucht, die aber im Zuge der ein-
+              <lb></lb>chränkenden Massnahmen nicht zur Entscheidung gekommen ist;
+                 <lb></lb>auch diese herbeizuführen werden wir bemüht bleiben.
+              </p>
+            <pb n="2"/>
+              <p>Wir wollen hoffen, dass
+              <lb></lb>noch im Dunkel liegenden
+              <lb></lb>Entscheidungen auf den Kriegsschauplätzen die Wendung nehmen,
+              <lb></lb>die wir wünschen, und dass damit die noch bestehenden Hemmnisse
+              <lb></lb>auf unserem Gebiet beseitigt werden.
+              </p>
+            <closer>Mit freundlichen Grüssen und
+               <lb></lb><salute>Heil Hitler!
+                  <lb></lb>Ihr Ihnen sehr ergebener</salute>
+              </closer>
+            </div>
+      </body>
+  </text>
+</TEI>

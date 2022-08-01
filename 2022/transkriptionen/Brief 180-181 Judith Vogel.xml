@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Brief von Karl Helbig an den Verlag Friedrich Vieweg &amp; Sohn vom 05.05.1946</title>
+            <author>
+               <persName ref="http://d-nb.info/gnd/128547553">
+                  <surname>Helbig</surname>
+                  <forename>Karl</forename>
+               </persName>
+            </author>
+            <respStmt xml:id="textsource-1" corresp="#availability-textsource-1">
+               <orgName>Universitätsarchiv der Universitätsbibliothek Braunschweig</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Bereitstellung der Texttranskription.</note>
+                  <note type="remarkRevisionDTA">Bitte beachten Sie, dass die aktuelle Transkription (und Textauszeichnung) mittlerweile nicht mehr dem Stand zum Zeitpunkt der Übernahme des Werkes in das DTA entsprechen muss.</note>
+                  <date type="importDTA">2022-07-17T10:42:30Z</date>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName>
+                  <surname>Vogel</surname>
+                  <forename>Judith-Antonia</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Bearbeitung der digitalen Edition.</note>
+                  <date type="importDTA">2022-07-17T10:42:30Z</date>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+                  <ref target="https://www.bbaw.de"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt><edition>Vollständige digitalisierte Ausgabe und in XML/TEI-P5 editierte Edition</edition></editionStmt>
+         <extent>
+            <measure type="images"/>
+            <measure type="tokens"/>
+            <measure type="types"/>
+            <measure type="characters"/>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName role="project">Universitätsbibliothek der Technischen Universität Braunschweig</orgName>
+               <address>
+                  <addrLine>Universitätsplatz 1, 38106 Braunschweig</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Braunschweig</pubPlace>
+            <date type="publication">2022-07-17T10:42:30Z</date>
+            <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+               <licence target="http://creativecommons.org/licenses/by-sa/2.0/de/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 2.0 Generic (German) License.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="M"/>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">Brief von Karl Helbig an den Verlag Friedrich Vieweg &amp; Sohn vom 05.05.1946</title>
+                  <author>
+                     <persName ref="http://d-nb.info/gnd/128547553">
+                        <surname>Helbig</surname>
+                        <forename>Karl</forename>
+                     </persName>
+                  </author>
+                  <editor>
+                     <persName>
+                        <surname>Vogel</surname>
+                        <forename>Judith-Antonia</forename>
+                     </persName>
+                  </editor>
+               </titleStmt>
+               <editionStmt>
+                  <edition n="1"/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <pubPlace>Hamburg</pubPlace>
+                  <date type="publication">1946</date>
+               </publicationStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               Bogensignaturen: keine Angabe;
+               Druckfehler: keine Angabe;
+               fremdsprachliches Material: nicht gekennzeichnet;
+               Geminations-/Abkürzungsstriche: keine Angabe;
+               Hervorhebungen (Antiqua, Sperrschrift, Kursive etc.): keine Angabe;
+               i/j in Fraktur: keine Angabe;
+               I/J in Fraktur: keine Angabe;
+               Kolumnentitel: keine Angabe;
+               Kustoden: keine Angabe;
+               langes s (ſ): keine Angabe;
+               Normalisierungen: dokumentiert;
+               rundes r (&amp;#xa75b;): keine Angabe;
+               Seitenumbrüche markiert: ja;
+               Silbentrennung: keine Angabe;
+               u/v bzw. U/V: keine Angabe;
+               Vokale mit übergest. e: keine Angabe;
+               Vollständigkeit: vollständig erfasst;
+               Zeichensetzung: keine Angabe;
+               Zeilenumbrüche markiert: ja;
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <div xml:id="briefnummer" n="180">
+            
+            <opener>
+               <dateline>5.5.46</dateline>
+               <salute>Sehr geehrte Herren,</salute>
+            </opener>
+         <p><lb/>vor einiger Zeit ehielt ich den freundlichst
+            <lb/>übersandten Taschenkalender des Verlages Vieweg
+            <lb/>und danke bestens dafür. Sehr gerne hätte ich die-
+            <lb/>ses kleine, bescheidene erste Zeichen nach langer
+            <lb/>Zeit als Beweisstück der Lizenzierung des Verlages
+            <lb/>angesehen. Doch da seitdem Wochen vergingen und
+            <lb/>ich nichts weiter von Ihnen hörte, dürfte ich mich
+            <lb/>doch wohl zu früh gefreut haben. Dankbar wäre ich
+            <lb/>wenn Sie mich kurz über den Stand der Angelegen-
+            <lb/>heit unterrichten möchten. Sollten Sie schon Aus-
+            <lb/>lieferungslizenz haben, möchte ich mich auch höf-
+            <lb/>lichst in Erinnerung bringen betreffs der erbete-
+            <lb/>nen und von <persName>Herrn Zimmermann</persName> liebenswürdigst zu-
+            <lb/>gesagten Büchersendung von Reise- und Unterhal-
+            <lb/>tungslektüre. </p>
+            <closer>
+               <salute>Mit besten Wünschen und ergebener Begrüssung</salute>
+            <lb/>Ihr
+               <lb/><signed> <persName>Karl Helbig</persName> </signed>
+               </closer> 
+            </div>
+         <div>
+         
+         <p><pb/> Absender:
+         
+            <lb/><persName ref="https://de.wikipedia.org/w/index.php?title=Karl_Helbig_(Forschungsreisender)&amp;oldid=220275423">Dr. habil. Karl Helbig</persName>
+         
+            <lb/> <placeName ref="https://www.geonames.org/2911296/altona.html">HAMBURG -ALTONA</placeName>
+            <lb/>Treschkowallee 22
+            <lb/>Postscheck Hamburg 480 72
+         
+            <lb/>Wohnort, auch Zustell- oder Leitpostamt
+            <lb/>German
+         
+            <lb/>Geschäftlich!
+         
+         
+            <lb/>Straße, Hausnummer, Gebäudeteil, Stockwerk oder
+            <lb/>Postschließfachnummer;
+            <lb/>bei Untermietern auch Name des Vermieters </p>
+         
+         
+         <p>Postkarte
+            <lb/>POSTAGE PREPAID
+         
+            <lb/>Gebühr bezahlt
+            <lb/>Verlag
+         
+            <lb/>Friedrich Vieweg &amp; Sohn
+            <lb/>(20) <placeName ref="https://www.geonames.org/2945024/braunschweig.html">raunschweig.</placeName>B
+         
+            <lb/>Burgplatz 1
+         
+            <lb/>Straße, Hausnummer, Gebäudeteil, Stockwerk oder Post-
+            <lb/>schließfachnummer; bei Untermietern auch Name des Vermieters
+         </p>
+            </div> 
+      </body>
+  </text>
+</TEI>

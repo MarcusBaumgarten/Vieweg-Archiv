@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Brief von Georg Schwarz an Friedrich Vieweg &amp; Sohn, Braunschweig
+               vom 07.05.1940</title>
+            <author>
+               <persName>
+                  <surname>Schwarz</surname>
+                  <forename>Georg</forename>
+               </persName>
+            </author>
+            <author>
+               <persName>
+                  <surname>Schumann</surname>
+                  <forename>Jonas</forename>
+               </persName>
+            </author>
+            <respStmt xml:id="textsource-1" corresp="#availability-textsource-1">
+               <persName>
+                  <surname>Braunschweig</surname>
+                  <forename>Universitätsarchiv der Universitätsbibliothek</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Bereitstellung der Texttranskription.</note>
+                  <note type="remarkRevisionDTA">Bitte beachten Sie, dass die aktuelle Transkription
+                     (und Textauszeichnung) mittlerweile nicht mehr dem Stand zum Zeitpunkt der
+                     Übernahme des Werkes in das DTA entsprechen muss.</note>
+                  <date type="importDTA">2022-07-18T13:54:39Z</date>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName>
+                  <surname>Schumann</surname>
+                  <forename>Jonas</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Bearbeitung der digitalen Edition.</note>
+                  <date type="importDTA">2022-07-18T13:54:39Z</date>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der
+                  Wissenschaften (BBAW)</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Langfristige Bereitstellung der
+                     DTA-Ausgabe</note>
+                  <ref target="https://www.bbaw.de"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe und XLM/TEI-P5 editierte Edition</edition>
+         </editionStmt>
+         <extent>
+            <measure type="images"/>
+            <measure type="tokens"/>
+            <measure type="types"/>
+            <measure type="characters"/>
+         </extent>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <email>dta@bbaw.de</email>
+               <orgName role="project">Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of
+                  Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der
+                  Wissenschaften (BBAW)</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-07-18T13:54:39Z</date>
+            <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+               <licence target="http://creativecommons.org/licenses/by-sa/2.0/de/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 2.0 Generic
+                     (German) License.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="M"/>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">Brief von Georg Schwarz an Friedrich Vieweg &amp;
+                     Sohn, Braunschweig vom 07.05.1940</title>
+                  <author>
+                     <persName>
+                        <surname>Schwarz</surname>
+                        <forename>Georg</forename>
+                     </persName>
+                  </author>
+                  <author>
+                     <persName>
+                        <surname>Schumann</surname>
+                        <forename>Jonas</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition n="1"/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <pubPlace>Braunschweig</pubPlace>
+                  <date type="publication">1940</date>
+               </publicationStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p> Bogensignaturen: keine Angabe; Druckfehler: keine Angabe; fremdsprachliches
+               Material: nicht gekennzeichnet; Geminations-/Abkürzungsstriche: keine Angabe;
+               Hervorhebungen (Antiqua, Sperrschrift, Kursive etc.): keine Angabe; I/J in Fraktur:
+               keine Angabe; i/j in Fraktur: keine Angabe; Kolumnentitel: keine Angabe; Kustoden:
+               keine Angabe; langes s (ſ): keine Angabe; Normalisierungen: dokumentiert; rundes r
+               (&amp;#xa75b;): keine Angabe; Seitenumbrüche markiert: ja; Silbentrennung: keine
+               Angabe; u/v bzw. U/V: keine Angabe; Vokale mit übergest. e: keine Angabe;
+               Vollständigkeit: vollständig erfasst; Zeichensetzung: keine Angabe; Zeilenumbrüche
+               markiert: ja; </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass> </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb/>
+         <div xml:id="briefnummer">
+            <head>Mitteilung an Friedr.Vieweg &amp; Sohn, <placeName
+                  ref="https://www.geonames.org/2945024/braunschweig.html"
+               >Braunschweig</placeName></head>
+            <p>Betrifft: <persName
+                  ref="https://de.wikipedia.org/w/index.php?title=Karl_Helbig_(Forschungsreisender)&amp;oldid=220275423"
+                  >Karl Helbig</persName>, "Urwaldwildnis Borneo" Ihre Nachricht vom Zeichen Tag
+                  <date when="1940-05-07">7. Mai 1940</date><note place="below">10.5.</note></p>
+            <lb/>
+            <p> Zweifellos hat <persName
+                  ref="https://de.wikipedia.org/w/index.php?title=Karl_Helbig_(Forschungsreisender)&amp;oldid=220275423"
+                  >Herr Dr. Helbig</persName> das gehalten, was wir uns von <lb/>ihm versprochen
+               haben. <lb/>Sein Bericht ist ein äußerst wertvolles <lb/>Dokument einer
+               wissenschaftlichen und menschlichen Leistung. <lb/>In diesem Zusammenhang erscheint
+               mir auch der gewählte Titel <lb/>nicht umfassend genug, denn der Verfasser beschränkt
+               sich <lb/>nicht auf den Urwald, sondern er gibt, trotz seiner beschei- <lb/>den
+               gehaltenen Vorrede, einen weitgehenden Ueberblick über <lb/>Asiens größte Insel,
+               geographischer, völkerkundlicher, <lb/>wirtschaftlicher und politischer Art. Ichq
+               möchte seine Arbeit, <lb/>obgleich sie mit den glänzenden Stilmitteln eines begabten
+               <lb/>Schriftstellers geschrieben ist,-der mich in dieser Art an <lb/>
+               <persName
+                  ref="https://de.wikipedia.org/w/index.php?title=Sven_Hedin&amp;oldid=223014062"
+                  >Sven Hedin</persName> erinnerte der den großen Forscher mit dem großen
+               <lb/>Schriftsteller aufs glücklichste in sich vereinigt- fast <lb/>eine Handbuch über
+               alle Probleme <placeName ref="ttps://www.geonames.org/1648148/borneo.html"
+                  >Borneos</placeName> nennen. Zweifellos <lb/>dürfte auch darin sein Wert liegen,
+               ganz abgesehen von dem <lb/>unterhaltsamen Genuß, den die Lektüre jedem bieten
+               <lb/>wird, der Reisebeschreibungen liebt.</p>
+            <p><lb/>Dennoch scheint mir das Werk ein wenig zu umfänglich geraten <lb/>zu sein,
+               obwohl ich, mit einer Ausnahme, keine der geschriebenen <lb/>Zeilen aus überflüssig
+               betrachten möchte. Aber es könnte <lb/>sein, daß ein allzu gewichtiger Band sich
+               erheblich teurer <lb/>als die sonstigen Bücher des Verlages Wenzel und Sohn stellt,
+               <lb/>was vielleicht im Augenblick nichts ausmachen würde, aber <lb/>dem Absatz des
+               Werkes in späteren Jahren doch schaden könnte. <lb/>Der Umfang sollte möglichst 20
+               Bogen nicht überschreiten. In <lb/>jedem Falle sollte die Anekdote mit dem Glasauge
+               auf Seite <lb/>47 herausgenommen werden, Sie ist der sonstigen Qualitit des
+               <lb/>Werkes nicht würdig, und sie wird in mehr als einem Resebuch <lb/>erwähnt. Ish
+               selber lernte vor 16 Jahren in Moskau einen <lb/>einäugigen Russen kennen, der
+               behauptete unter den Jakuten <lb/>mit seinem Glasauge ähnlich manipuliert zu
+               haben.</p>
+            <lb/>
+            <p>Ferner bitte ich darum,<persName
+                  ref="https://de.wikipedia.org/w/index.php?title=Karl_Helbig_(Forschungsreisender)&amp;oldid=220275423"
+                  >Herrn Dr. Helbig</persName> vorzuschlagen, in jedem <lb/>Falle auf Fußnoten zu
+               verzichten. Das Werk ist mit Fußnoten <lb/>gespickt, von denen manche den Umfang
+               einer halben Seite des <lb/>Textes im Buche ausmachen würde. Dieser ganze Apparat
+               kann <lb/>nach hinten genommen werden, als Anmerkungen und läßt sich <lb/>auch in
+               einem kleineren Schriftgrad setzen, der bestimmt manche Seiten spart. Vor jede dieset
+               <lb/>Anmerkungen setzt man am besten eine Kursivzeile, die einen <lb/>Hinweis gibt,
+               worauf sich diese Anmerkung bezieht. Etwa: <lb/>Seite 151 vierte Zeile von unten,
+               oder zweite Zeile des <lb/>dritten Absatzes oder jenachdem. Das läßt sich bei der
+               <lb/>Korrektur ja leicht machen, denn <persName
+                  ref="https://de.wikipedia.org/w/index.php?title=Karl_Helbig_(Forschungsreisender)&amp;oldid=220275423"
+                  >Herr Doktor Helbig</persName> braucht <lb/>die Fußnoten <note place="left">des
+                  Manusskriptes</note> ja nur wieder abzulösen und in derselben Reihen- <lb/>folge
+               hintereinander aufzukleben, dann ist es keine große <lb/>Arbeit. Für die Fremdwörter
+               und fremdsprachlichen Begriffe, <lb/>die der Verfasserebenfalls in Fußnoten erklärt
+               zu sehen <lb/>wünscht, schlage ich die Anlegung eines alphabetischen Fremd-
+               <lb/>wortverzeichnisses vor, das ebenfalls an den Schluß gestellt <lb/>wird. Ihr
+               könnte auch die phonetische Erklärung vorange- <lb/><pb/>
+               <lb/>stellt werden, die im Manuskript auf der Seite des Inhalts- <lb/>verzeichnisses
+               steht. Mit dieser Regelung behält das Werk <lb/>seinen wissenschaftlichen Wert, ohne
+               dadurch an Zugkraft für <lb/>breitere Leserschichten zu verlieren, was zweifellos der
+               <lb/>Fall wäre, wenn sich die Fußnoten über das ganze Buch ver <lb/>teilten.</p>
+            <lb/>
+            <p>Der Verfasser läßt hin und wieder einmal in der Unterhaltung <lb/>mit seinem
+               Gefährten ein englisches Wort fallen, wie "Allright' <lb/>usw. Gewiß, die
+               Seemannssprache ist damit durchsetzt, und <lb/>auch in der Sprache der
+               Auslandsdeutschen wird häufig solch <lb/>ein Einsprengsel aus dem Britischen
+               angetroffen. Wenn ich <lb/>nun empfehle, dies tunlichst zu vermieden, dann nicht aus
+               <lb/>Engherzigkeit, sondern aus dem Wunsche, Anrempelungen in <lb/>Besprechungen zu
+               vermeiden, womit mindestens zu rechnen wäre, <lb/>solange wir mit <placeName
+                  ref="https://www.geonames.org/6269131/england.html">England</placeName> im Kriege
+               stehen. Und das dürfte <lb/>bei Erscheinen des Buches wahrscheinlich noch der Fall
+               sein.</p>
+            <lb/>
+            <p>In jedem Falle halte ich die Beifügung einer Karte mit <lb/>der Reiseroute für
+               erforderlich, und es wäre durchaus wün- <lb/>schenswert, wenn Herr Dr. Helbig
+               möglichst bald eine <lb/>solche Vorlage anfertigte.</p>
+            <lb/>
+            <p>Wie sollen wir es mit dem Bildmaterial halten?. Wollen <lb/>Sie <persName
+                  ref="https://de.wikipedia.org/w/index.php?title=Karl_Helbig_(Forschungsreisender)&amp;oldid=220275423"
+                  >Herrn Dr. Helbig</persName> bitten, daß er eine möglichst große <lb/>Anzahl von
+               Aufnahmen an mich schickt, damit ich mit meiner <lb/>Frau zusammen eine erste
+               Sichtung vornehmen kann? Oder <lb/>wäre es nicht vielleicht zu erwagen, daß meine
+               Frau nach <lb/><placeName ref="https://www.geonames.org/2911298/hamburg.html"
+                  >Hamburg</placeName> fährt, um sich selber das aufschlußreichste und
+               <lb/>bildwirksamste an Material aus dem Archiv Helbigs heraus- <lb/>zusuchen, weil
+               die Autoren nach den bisherigen Erfahrungen <lb/>ja immer nur das heraussuchen, was
+               ihnen wichtig er- <lb/>scheint, und weniger davon ausgehen, wie es in der Wider
+               <lb/>gabe kommt, oder ob es von so allgemein interessierendem <lb/>Anreiz ist. Bitte,
+               geben Sie mir darüber Bescheid.</p>
+            <closer><lb/><signed><persName>Georg Schwarz</persName></signed></closer>
+            <lb/>
+            <postscript>
+               <label>PS</label>
+               <p> Da auch <persName
+                     ref="https://de.wikipedia.org/w/index.php?title=Karl_Helbig_(Forschungsreisender)&amp;oldid=220275423"
+                     >Herr Dr. Helbig</persName> mit einer Einberufung <lb/>zu rechnen hat, tut
+                  <lb/>Beschleunigung not.</p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

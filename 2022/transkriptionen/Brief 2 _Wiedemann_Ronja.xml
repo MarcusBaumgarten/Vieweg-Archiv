@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Brief des Vieweg-Verlages an Dr.-habil. Karl Helbig vom 17.09.1944</title>
+            <respStmt xml:id="textsource-1" corresp="#availability-textsource-1">
+               <orgName>Universitätsarchiv der Universitätsbibliothek TU Braunschweig</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Bereitstellung der Texttranskription.</note>
+                  <note type="remarkRevisionDTA">Bitte beachten Sie, dass die aktuelle Transkription (und Textauszeichnung) mittlerweile nicht mehr dem Stand zum Zeitpunkt der Übernahme des Werkes in das DTA entsprechen muss.</note>
+                  <date type="importDTA">2022-07-20T15:46:26Z</date>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName>
+                  <surname>Wiedemann</surname>
+                  <forename>Ronja</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Bearbeitung der digitalen Edition.</note>
+                  <date type="importDTA">2022-07-20T15:46:26Z</date>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <orgName ref="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Langfristige Bereitstellung der DTA-Ausgabe</note>
+                  <ref target="https://www.bbaw.de"/>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt><edition>Vollständige digitalisierte Ausgabe und XML/TEI-P5 editierte Edition</edition></editionStmt>
+         <extent>
+            <measure type="images"/>
+            <measure type="tokens"/>
+            <measure type="types"/>
+            <measure type="characters"/>
+         </extent>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <email>dta@bbaw.de</email>
+               <orgName role="project">Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="en">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="de">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+                  <country>Germany</country>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-07-11T15:46:26Z</date>
+            <availability xml:id="availability-textsource-1" corresp="#textsource-1">
+               <licence target="http://creativecommons.org/licenses/by-sa/2.0/de/">
+                  <p>Distributed under the Creative Commons Attribution-ShareAlike 2.0 Generic (German) License.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note type="remarkDocument">Das Original wurde mit Schreibmaschine in A5-Format zweiseitig abgetippt. 
+               Das Original enthielt eine handschriftliche Korrektur zu Beginn des Briefes.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl type="M"/>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">Brief des Vieweg-Verlages an Dr.-habil. Karl Helbig vom 17.09.1944</title>
+               </titleStmt>
+               <editionStmt>
+                  <edition n="1">Erste, vollständige Digitalisierung</edition>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher><name>Vieweg-Verlag Braunschweig</name></publisher>
+                  <pubPlace>Braunschweig</pubPlace>
+                  <date type="publication">1944</date>
+               </publicationStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <p>
+               Bogensignaturen: keine Angabe;
+               Druckfehler: stillschweigend korrigiert;
+               fremdsprachliches Material: keine Angabe;
+               Geminations-/Abkürzungsstriche: wie Vorlage;
+               Hervorhebungen (Antiqua, Sperrschrift, Kursive etc.): keine Angabe;
+               I/J in Fraktur: keine Angabe;
+               i/j in Fraktur: keine Angabe;
+               Kolumnentitel: keine Angabe;
+               Kustoden: keine Angabe;
+               langes s (ſ): keine Angabe;
+               Normalisierungen: keine Angabe;
+               rundes r (&amp;#xa75b;): keine Angabe;
+               Seitenumbrüche markiert: ja;
+               Silbentrennung: wie Vorlage;
+               u/v bzw. U/V: keine Angabe;
+               Vokale mit übergest. e: wie Vorlage;
+               Vollständigkeit: vollständig erfasst;
+               Zeichensetzung: wie Vorlage;
+               Zeilenumbrüche markiert: ja;
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+         </textClass>
+      </profileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div xml:id="Zwei">
+            <pb n="1"/><opener>
+               
+               <lb/>Herr
+               <lb/>Dr. habil.<persName ref="https://d-nb.info/gnd/128547553">Karl Helbig</persName>  
+               <lb/>(24) <placeName ref="https://www.geonames.org/2911296/altona.html">Hamburg-Altona</placeName>
+               <lb/> Treschowallee 22
+               
+               <lb/>Ws. /V. 382		<date>17.09.44</date>
+               <note place="right" hand="unbekannte Unterschrift"/>
+               
+           
+               <salute>Sehr geehrter Herr Dr. <persName ref="https://d-nb.info/gnd/128547553">Helbig</persName>!</salute></opener>
+                 <p> <lb/>Wir bestätigen dankend den Eingang Ihres frdl. Schreibens 
+                  <lb/>vom S.d.M., dem wir denen von Ihnen unterzeichneten Vertrags-
+                  <lb/>entwurf entnahmen. Da Sie uns keine Änderungswünsche mit-
+                  <lb/>teilen, haben auch wir den Vertrag unterschrieben. Eine zwei-
+                  <lb/>te Ausfertigung mit unserer Unterschrift fügen wir hier bei
+                  <lb/>und bitten Sie, nachdem auch Sie unterzeichnet haben, sie zu Ihren Akten zu nehmen.</p>
+         
+               <p><lb/>Wie uns von der Reichsschrifttumskammer mitgeteilt wurde, muß 
+                  <lb/>im Zuge der totalen Mobilisierung auch unser Vertrag vorrüber-
+                  <lb/>gehend geschlossen werden. Dadurch werden aber die von uns 
+                  <lb/>mit den Autoren abgeschlossenen Verträge insofern nicht be-
+                  <lb/>rührt, als die aus ihnen für den Vertrag bestehenden Pflichten
+                  <lb/>und Rechte durch Vereinbarung mit dem Verlag <orgName ref="https://d-nb.info/871464039">Friedr. Vieweg. Vieweg
+                  <lb/>&amp; Sohn</orgName>, diesem übertragen werden sollen. Wir bitten Sie, uns
+                  <lb/>Ihr Einverständnis hierzu bezüglich Ihrer beiden Verträge
+                  <lb/>mitzuteilen. Es wird nichts versäumt werden, auch für Ihr neu-
+                  <lb/>es Buch die Vorbereitungen weiterzuführen und seine Herausga-
+                  <lb/>be so zu fördern, wie es nach gegebenen Verhältnissen
+                  <lb/>möglich ist. Wir sehen also der Zusendung des Manuskriptes
+                  <lb/>gern entgegen und werden uns wegen der Auswahl der Bilder zu
+                  <lb/>gegebener Zeit mit Ihnen in Verbindung setzen. </p>
+            
+            
+            <p>
+                  <lb/>Über Ihren von allen Beteiligten mit großer Begeisterung auf-
+                  <lb/>genommenen Vortrag ist leider in den hiesigen Zeitungen keine
+                  <lb/>Besprechung erschienen, und auch wir haben es bedauerlicher-
+                  <lb/>weise versäumt, noch nachträglich einen Bericht einzusenden.
+                  <lb/>Wir bitten Sie , dieses Versäumnis freundlichst entschuldigen zu wollen. 
+            
+            </p><pb n="2"/><p>
+         
+                  <lb/>Die von Ihnen erbetene Büchersendung wurde von uns am 1. d. M
+                     <lb/>zur Post gegeben, und wir hoffen, dass Sie sie inzwischen
+                     <lb/>erhalten haben. Sollte sie noch nicht eingetroffen sein , so
+                     <lb/>bitten wir um Nachricht, andernfalls um kurze Bestätigung
+                     <lb/>des Eingangs. Indem wir uns Ihnen bestens empfehlen, be-
+                     <lb/>grüßen wir Sie mit</p>
+                     
+            <closer><lb/>Heil Hitler   
+                     <lb/><signed><orgName ref="https://d-nb.info/871464039">Gustav Wenzel &amp; Sohn</orgName>
+                     <lb/>(Unterschrift)</signed></closer>
+         </div> </body>
+  </text>
+</TEI>
